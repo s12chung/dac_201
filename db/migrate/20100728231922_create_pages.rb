@@ -7,10 +7,20 @@ class CreatePages < ActiveRecord::Migration
       t.timestamps
     end
     add_index :pages, :filename
+    add_index :pages, :number
+
+    Page.delete_all
+    Page.create_with_title "Introduction", "intro"
+    Page.create_with_title "Font"
+    Page.create_with_title "Size and weight", "size_weight"
+    Page.create_with_title "Space"
+    Page.create_with_title "Hierarchy"
+    Page.create_with_title "Conclusion"
+    Page.create_with_title "Summary"
+    Page.create_with_title "References"
   end
 
   def self.down
     drop_table :pages
-    remove_index :pages, :filename
   end
 end

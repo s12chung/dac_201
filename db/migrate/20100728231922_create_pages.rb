@@ -18,6 +18,7 @@ class CreatePages < ActiveRecord::Migration
     Page.create_with_title "Conclusion"
     Page.create_with_title "Summary"
     Page.create_with_title "References"
+    Page.create :title => "About", :filename => "about"
   end
 
   def self.down

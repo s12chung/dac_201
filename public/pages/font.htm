@@ -1,0 +1,71 @@
+<p>Most people associate typography with fonts. These slides will go into an
+in-depth explanation on how to select fonts for a website.</p>
+
+<h3>Serifs</h3>
+<p>Before going into the various types of fonts, you should understand that most 
+fonts can generally fall under two categories, serif and sans-serif.</p>
+
+<ul>
+	<li ><strong>Serif </strong>fonts have non-structural details at the ends of
+	strokes on some letters called serifs (highlighted in red below)</li>
+
+	<li><strong>Sans-serif</strong> fonts don&#39;t have serifs (&quot;sans-serif&quot; literally 
+	means &quot;without serif&quot; in French)</li>
+</ul>
+
+<p>Serif fonts are easier to read because the serifs help the words flow and
+distinguish differences between characters. They have been very popular with 
+print copies.</p>
+
+<p>Sans-serif fonts more popular on computers because low resolution screens and
+slow computers make difficult to show the serifs and thinner strokes of serif 
+fonts on the computer screen, especially for small font sizes.</p>
+
+<p>In terms of style, serif fonts are look for traditional, while san-serif
+fonts are clean and modern.</p>
+
+<p>As a general rule, it&#39;s best to <strong>stick with two
+different fonts, one serif and one sans-serif</strong> (unless you&#39;re a 
+designer) because it is often difficult to tell the difference between two of 
+the same type of fonts. Also, it&#39;s common to see the less readable font as a 
+header and the more readable font as the body because of the different font 
+sizes.</p>
+
+<p>Statistically, 60% of web sites use sans-serif fonts for headlines, and 66%
+of web sites use sans-serif fonts for the body. Arial, Georgia and Verdana are 
+the most popular fonts. See <a href="http://www.smashingmagazine.com/2009/08/20/typographic-design-survey-best-practices-from-the-best-blogs/">this link</a> for more statistics.</p>
+
+<p>Caption: Left: sans-serif font Helvetica Neue, right: serif font Baskerville
+(serifs highlighted in red)</p>
+
+<h3>Web fonts and font stacks</h3>
+
+<p>Generally, in order for web sites to display a font, the web site viewer must
+have the font installed on their computer. Otherwise, the web browser will show 
+the default serif or sans-serif font installed.</p>
+
+<p>Sadly, not everyone has all the fonts installed. And different operating
+systems (i.e. Mac or Windows) have different pre-installed fonts. For example, 
+the 99.71% of Mac computers have Helvetica (which is considered the Apple font), 
+compared to less than 10% of Windows computers (Arial is considered Windows&#39; 
+Helvetica).</p>
+
+<p>To compensate for this problem, web designers create font stacks. A
+<strong>font stack</strong> is a prioritized list of fonts, 
+where the browser will go through until it finds a font that is installed in the 
+computer, so the can be displayed.</p>
+
+<p>Implementing font stacks is simple. Just add the CSS property, <em>font-family</em>.</p>
+
+<p>For example, Facebook&#39;s code looks like this:</p>
+
+<code>
+.facebook_font_class {<br/>
+    &nbsp;&nbsp;&nbsp;font-family: &quot;Lucida Grande&quot;, Tahoma, Verdana, Arial, sans-serif;<br/>
+}
+</code>
+
+<p>which means check the computer for Lucida Grande and if it&#39;s not installed, 
+try Tahoma, then Verdana, Arial, and then default sans-serif font.</p>
+<p>See this <a href="http://www.awayback.com/revised-font-stack/">web page</a> for more recommended font stacks 
+and font pre-installation statistics.</p>

@@ -1,0 +1,125 @@
+/*Need to change font sizes*/
+body {
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    color: #222;
+}
+
+p, code {
+    margin-top: 14.25px;
+}
+
+p {
+    line-height: 150%;
+}
+
+code {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 14px;
+    display: block;
+    border: 1px dashed black;
+    background: #EFEFEF;
+    padding: 12px;
+}
+
+.fade-1 {
+    color: #555;
+}
+
+.fade-2 {
+    color: #888;
+}
+
+a { color: #111; text-decoration: none; border-bottom: 1px dotted #111; }
+a:hover { color: #FFF; background-color: #111; }
+a:active { background-color: #999; }
+
+h1, h2, h3, h4, h5, h6, .head {
+    color: #111;
+    font-family: Georgia, Palatino, "Palatino Linotype", Times, "Times New Roman", serif;
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 1.25em;
+    margin-bottom: .25em;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: .25em;
+}
+
+h3 {
+    margin-top: 36px;
+    font-size: 1.25em;
+    margin-bottom: .25em;
+}
+
+h4 {
+    font-weight: normal;
+    margin-top: 4px;
+    margin-bottom: .25em;
+}
+
+div.menu a {
+    border-bottom: none;
+}
+
+div.content ul {
+    margin: 14.25px 0 0 30px;
+    list-style: circle inside;
+}
+
+div.content li {
+    line-height: 150%;
+    margin-top: 7px;
+}
+
+div.head {
+    height: 40px;
+    margin: 30px 0 50px 0;
+    text-align: center;
+}
+
+.name {
+    font-size: .9em;
+    font-style: italic;
+}
+
+.page div.title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.menu-items li {
+    font-size: 80%;
+    padding-top: 10px;
+}
+
+.menu-items li.curr {
+    font-weight: bold;
+    list-style: square outside;
+}
+
+div.footer {
+    margin: 50px 0 30px 0;
+    line-height: 150%;
+}
+
+div.footer .next {
+    float: right;
+    text-align: right;
+}
+
+span.resources,span.resources p  {
+    margin-top: 2px;
+    line-height: 150%;
+}
+
+span.resources > div {
+    margin-top: 14.25px;
+}
+
+span.resources a {
+    font-weight: bold;
+}

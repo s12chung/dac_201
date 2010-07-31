@@ -1,0 +1,42 @@
+<p>Whitespace de-clutters type by distinguishing elements into separate groups
+creating relationships between elements. Whitespace also makes type more 
+readable, as it has been found that adding whitespace can increase comprehension 
+by 20%. The layout of text also influences the user satisfaction of the web 
+site.</p>
+
+<h3>Measure</h3>
+<p>The <strong>Measure</strong> is the width of the body. The 
+measure should be about <strong>55 to 85 characters </strong>
+in length (including spaces) to make it easier to read. However, most sites have 
+a measure from 73 and 90 characters.</p>
+<p>Implementing measure in your web site varies upon the situation. However, a 
+good guideline is to adopt a grid system to help, such as the
+<a href="http://960.gs/">960 grid system</a>.</p>
+<p>Picture of Measure</p>
+
+<h3>Leading</h3>
+<p><strong>Leading</strong> is the vertical space between lines of text. It is 
+recommended that the leading should be wider than the word spacing. This 
+practice makes it easier for the eye to go along the line, instead of down the 
+lines.</p>
+<p>Statistically, the <strong>average line height to body copy 
+font size ratio (line height ÷ body copy font size) on web sites is 1.48 </strong>
+(1.5 is recommended).</p>
+<p>The leading should increase proportionally to the measure. Thus, small 
+measure, less leading. Wide measure, more leading. The <strong>
+average ratio between the measure and leading is 27.8</strong>. However, this 
+number is considered fairly large for typographers.</p>
+<p>Also note that <strong>the space between paragraphs should 
+be about 75% of the line height</strong> for more vertical rhythm.</p>
+
+<h3>Implementation</h3>
+<p>To add leading in CSS, use the <em>line-height</em>
+property. To change the space between paragraphs, use the <em>margin-top</em> property 
+on your <i>p</i> (paragraph) tags. For example:</p>
+
+<code>
+p {<br/>
+&nbsp;&nbsp;&nbsp;line-height: 150%;<br/>
+&nbsp;&nbsp;&nbsp;margin-top: 12px; /* assuming the font size is 16px */<br/>
+}
+</code>

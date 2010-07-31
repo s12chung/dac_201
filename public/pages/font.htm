@@ -13,6 +13,8 @@ fonts can generally fall under two categories, serif and sans-serif.</p>
 	means &quot;without serif&quot; in French)</li>
 </ul>
 
+<img src="/images/serif.png" alt="serif_sans-serif">
+
 <p>Serif fonts are easier to read because the serifs help the words flow and
 distinguish differences between characters. They have been very popular with 
 print copies.</p>
@@ -33,7 +35,9 @@ sizes.</p>
 
 <p>Statistically, 60% of web sites use sans-serif fonts for headlines, and 66%
 of web sites use sans-serif fonts for the body. Arial, Georgia and Verdana are 
-the most popular fonts. See <a href="http://www.smashingmagazine.com/2009/08/20/typographic-design-survey-best-practices-from-the-best-blogs/">this link</a> for more statistics.</p>
+the most popular fonts. See
+<a href="http://www.smashingmagazine.com/2009/08/20/typographic-design-survey-best-practices-from-the-best-blogs/">
+this link</a> for more statistics.</p>
 
 <p>Caption: Left: sans-serif font Helvetica Neue, right: serif font Baskerville
 (serifs highlighted in red)</p>
@@ -55,17 +59,27 @@ Helvetica).</p>
 where the browser will go through until it finds a font that is installed in the 
 computer, so the can be displayed.</p>
 
+<h3>Example</h3>
+<p>Need an example? Try this <a href="/engage/font/engage.html" target="_blank">interactive module</a>,
+that explains the fonts in User Experience Magazine (UX Mag) website.
+This website will be used as an example for all the tips.</p>
+
+<h3>Implementation</h3>
+
 <p>Implementing font stacks is simple. Just add the CSS property, <em>font-family</em>.</p>
 
-<p>For example, Facebook&#39;s code looks like this:</p>
+<p>Below is an example of a font stack:</p>
 
 <code>
-.facebook_font_class {<br/>
-    &nbsp;&nbsp;&nbsp;font-family: &quot;Lucida Grande&quot;, Tahoma, Verdana, Arial, sans-serif;<br/>
+body { /* means for all text */ <br/>
+    &nbsp;&nbsp;&nbsp;font-family: &quot;Meta Serif Bold&quot;, &quot;Lucida Bright&quot;, Cambria, Georgia, serif;
+    /* Use quotes for font names longer than one word */<br/>
 }
 </code>
 
-<p>which means check the computer for Lucida Grande and if it&#39;s not installed, 
-try Tahoma, then Verdana, Arial, and then default sans-serif font.</p>
-<p>See this <a href="http://www.awayback.com/revised-font-stack/">web page</a> for more recommended font stacks 
+<p>which means check the computer for Meta Serif Bold and if it&#39;s not installed,
+try Lucida Bright, then Cambria, Georgia, and then default serif font. An image of the fonts is shown below. </p>
+
+<img src="/images/font_stack.png" alt="font_stack">
+<p>See this <a href="http://www.awayback.com/revised-font-stack/">web page</a> for more recommended font stacks
 and font pre-installation statistics.</p>

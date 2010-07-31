@@ -1,0 +1,44 @@
+<Interaction Type="Labeled Graphic" Title="Space" contentfont="Tahoma" dotanimation="glow" defaultimage="false" jpegquality="80" autoplay="false" autoplayduration="5" headingfont="Georgia" navfont="Georgia" soundeffects="true" volumebutton="false" audioquality="low" audiocustombitrate="br112Kbps" audiocustomfrequency="fq12KHz" audiocustomchannel="ccMono" navbuttons="true" forceorder="false" detectflashver="true" animation="bounce" version="2.3.1005.1623" borderstyle="none">
+  <bgimage src="image0.jpg" percent="30" originalSource="imageSource0.png" width="690" height="426" />
+  <labels>
+    <label char="1" panelpos="top" iconid="6" x="187" y="206">
+      <color name="Red" valuea="0xDD4809" valueb="0x912020" inner="0x5C1414" hovera="0xFCCFBC" hoverb="0xDD4809" />
+      <steps>
+        <Step id="ca813577-cd88-4907-be5a-1051b1b7c30d" name="Measure" title="" number="1" audioonly="false" html="&lt;p align='left'&gt;&lt;font face='Tahoma' size='13' color=''&gt;The measure is about 80 to 85 characters long. Like most web sites, the measure is at the upper bound (or over) the recommended width of 55 to 85 characters .&lt;/font&gt;&lt;/p&gt;">
+        </Step>
+      </steps>
+    </label>
+    <label char="2" panelpos="right" iconid="6" x="351" y="210">
+      <color name="Red" valuea="0xDD4809" valueb="0x912020" inner="0x5C1414" hovera="0xFCCFBC" hoverb="0xDD4809" />
+      <steps>
+        <Step id="985a8b77-10bd-4bc1-838f-9af898c03012" name="Leading" title="" number="2" audioonly="false" html="&lt;p align='left'&gt;&lt;font face='Tahoma' size='13' color=''&gt;From examining the code, the line height to body font size ratio is 1.6, slightly above the recommended ratio of 1.5.&lt;/font&gt;&lt;/p&gt;">
+        </Step>
+      </steps>
+    </label>
+    <label char="3" panelpos="right" iconid="6" x="354" y="286">
+      <color name="Red" valuea="0xDD4809" valueb="0x912020" inner="0x5C1414" hovera="0xFCCFBC" hoverb="0xDD4809" />
+      <steps>
+        <Step id="f8b20583-3119-4d28-a368-ca3420487af8" name="Measure to leading ratio" title="" number="3" audioonly="false" html="&lt;p align='left'&gt;&lt;font face='Tahoma' size='13' color=''&gt;The width of the measure is actually 465 pixels and the leading is 17.6 pixels (with a font size of 11 pixels). These numbers give a measure to leading ratio of 26.42.&lt;br&gt;&lt;/br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;font face='Tahoma' size='13' color=''&gt;This ratio is less than the average of 27.8, which is good because the average is considered fairly large.&lt;/font&gt;&lt;/p&gt;">
+        </Step>
+      </steps>
+    </label>
+    <label char="4" panelpos="right" iconid="6" x="352" y="366">
+      <color name="Red" valuea="0xDD4809" valueb="0x912020" inner="0x5C1414" hovera="0xFCCFBC" hoverb="0xDD4809" />
+      <steps>
+        <Step id="f333d977-d437-4a8c-82f7-3f2a50bf14e1" name="Paragraph spacing" title="" number="4" audioonly="false" html="&lt;p align='left'&gt;&lt;font face='Tahoma' size='13' color=''&gt;Again, the line height is 17.6 pixels. The paragraph spacing is 14 pixels, about 80% of the line height. This percentage near the common value of 75%.&lt;/font&gt;&lt;/p&gt;">
+        </Step>
+      </steps>
+    </label>
+  </labels>
+  <introduction>
+    <label panelpos="auto" iconid="intro" x="676" y="15">
+      <color name="Green" valuea="0x99CC00" valueb="0x006600" inner="0x002F00" hovera="0xFFFFFF" hoverb="0x99CC00" />
+      <steps>
+        <Step id="7e0f3a95-7e1b-41c8-9ade-6e7823805d70" name="Introduction" title="" number="0" audioonly="false" html="&lt;p align='left'&gt;&lt;font face='Tahoma' size='13' color=''&gt;This is a web page of User Experience Magazine (UX Mag) on &lt;/font&gt;&lt;font face='Tahoma' size='13' color='#0000ff'&gt;&lt;u&gt;&lt;a target='_blank' href='http://uxmag.com'&gt;uxmag.com&lt;/a&gt;&lt;/u&gt;&lt;/font&gt;&lt;font face='Tahoma' size='13' color='#000000'&gt;. Lets see how UX Mag spaces their type.&lt;/font&gt;&lt;/p&gt;" intro="true">
+        </Step>
+      </steps>
+    </label>
+  </introduction>
+  <starttip show="false" text="Click next to continue" />
+  <resume id="28b26996-6d3c-4094-bf37-69ffecdad9b6" enabled="false" />
+</Interaction>

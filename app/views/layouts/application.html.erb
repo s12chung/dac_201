@@ -1,22 +1,40 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html>
 <head>
+  <% title = "Four Typography Tips for Web Design" %>
   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-  <title><%= yield :page_title %></title>
+  <title><%= yield :page_title %> | <%= title %> </title>
   <%= javascript_include_tag "http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"%>
   <%= stylesheet_link_tag "resets" %>
-  <%= stylesheet_link_tag "application" %>
   <%= stylesheet_link_tag "grid" %>
+  <%= stylesheet_link_tag "application" %>
 </head>
 <body>
 <div class="container_12">
-  <div class="head">
-    <h1>Five Typography Tips for Web Design</h1>
-    <span class="name fade-2">by Steven Chung</span>
+  <div class="menu grid_2 prefix_1">
+    <h4>Menu</h4>
+    <ul class="menu-items fade-1">
+      <% Page.all_by_number.each do |page| %>
+          <% if @page == page %>
+              <li class="curr"><%= link_to page.title, :filename => page.filename %></li>
+          <% else %>
+              <li><%= link_to page.title, :filename => page.filename %></li>
+          <% end %>
+      <% end %>
+      <li class="<%= if @page == Page.about.first: "curr " end %>about"><%= link_to "About", :filename => :about %></li>
+    </ul>
   </div>
-  <div class="page">
-    <%= yield %>
+
+  <div class="grid_6">
+    <div class="head">
+      <h1><%= link_to title, :root %></h1>
+      <span class="name fade-2">by Steven Chung</span>
+    </div>
+    <div class="page">
+      <%= yield %>
+    </div>
   </div>
+  <div class="clear"></div>
 </div>
 </body>
 </html>

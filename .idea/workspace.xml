@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager" verified="true">
-    <list default="true" readonly="true" id="28ada848-b252-49d5-8d43-0736412944fb" name="Default" comment="" />
+    <list default="true" readonly="true" id="28ada848-b252-49d5-8d43-0736412944fb" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/rails.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/pages/size_weight.htm" afterPath="$PROJECT_DIR$/public/pages/size_weight.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/pages/space.htm" afterPath="$PROJECT_DIR$/public/pages/space.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/application.css" afterPath="$PROJECT_DIR$/public/stylesheets/application.css" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/index.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/module_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/module_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/pages/conclusion.htm" afterPath="$PROJECT_DIR$/public/pages/conclusion.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/pages/font.htm" afterPath="$PROJECT_DIR$/public/pages/font.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/pages/hierarchy.htm" afterPath="$PROJECT_DIR$/public/pages/hierarchy.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/pages/intro.htm" afterPath="$PROJECT_DIR$/public/pages/intro.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/page.rb" afterPath="$PROJECT_DIR$/app/models/page.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/module/index.html.erb" afterPath="$PROJECT_DIR$/app/views/module/index.html.erb" />
+    </list>
     <ignored path=".idea/workspace.xml" />
     <ignored path="dac_module.iws" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,61 +41,53 @@
   </component>
   <component name="FileColors" enabled="true" enabledForTabs="true" />
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf>
-          <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="14" column="21" selection-start="571" selection-end="571" vertical-scroll-proportion="-9.545455">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/app/views/module/index.html.erb">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="24" column="43" selection-start="667" selection-end="667" vertical-scroll-proportion="0.58064514">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="grid.css" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/public/stylesheets/grid.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="317" column="16" selection-start="4485" selection-end="4485" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="page.rb" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/models/page.rb">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="14" column="8" selection-start="427" selection-end="427" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="application.css" pinned="false" current="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/public/stylesheets/application.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="110" column="22" selection-start="1679" selection-end="1679" vertical-scroll-proportion="0.76635516">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file leaf-file-name="font.htm" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/pages/font.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="62" column="29" selection-start="2918" selection-end="2992" vertical-scroll-proportion="-10.5">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="size_weight.htm" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/pages/size_weight.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="40" column="0" selection-start="1854" selection-end="1922" vertical-scroll-proportion="-8.863636">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="space.htm" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/pages/space.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="31" column="0" selection-start="1616" selection-end="1678" vertical-scroll-proportion="-9.136364">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hierarchy.htm" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/pages/hierarchy.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="83" selection-start="662" selection-end="662" vertical-scroll-proportion="-5.4545455">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="intro.htm" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/pages/intro.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="41" selection-start="287" selection-end="287" vertical-scroll-proportion="0.10989011">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -87,22 +97,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/public/pages/test.html" />
-        <option value="$PROJECT_DIR$/app/controllers/module_controller.rb" />
+        <option value="$PROJECT_DIR$/app/models/page.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/db/migrate/20100728231922_create_pages.rb" />
-        <option value="$PROJECT_DIR$/public/pages/hierachy.htm" />
-        <option value="$PROJECT_DIR$/public/pages/intro.htm" />
-        <option value="$PROJECT_DIR$/public/pages/space.htm" />
+        <option value="$PROJECT_DIR$/app/controllers/module_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/module/index.html.erb" />
+        <option value="$PROJECT_DIR$/public/pages/about.htm" />
+        <option value="$PROJECT_DIR$/public/stylesheets/application.css" />
+        <option value="$PROJECT_DIR$/public/engage/font/engage.html" />
+        <option value="$PROJECT_DIR$/public/engage/hierarchy/engage.html" />
+        <option value="$PROJECT_DIR$/public/engage/size_weight/engage.html" />
+        <option value="$PROJECT_DIR$/public/engage/space/engage.html" />
         <option value="$PROJECT_DIR$/public/pages/font.htm" />
         <option value="$PROJECT_DIR$/public/pages/size_weight.htm" />
-        <option value="$PROJECT_DIR$/public/pages/conclusion.htm" />
-        <option value="$PROJECT_DIR$/public/pages/summary.htm" />
-        <option value="$PROJECT_DIR$/public/pages/references.htm" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-        <option value="$PROJECT_DIR$/app/models/page.rb" />
-        <option value="$PROJECT_DIR$/public/stylesheets/application.css" />
-        <option value="$PROJECT_DIR$/app/views/module/index.html.erb" />
+        <option value="$PROJECT_DIR$/public/pages/space.htm" />
+        <option value="$PROJECT_DIR$/public/pages/hierarchy.htm" />
+        <option value="$PROJECT_DIR$/public/pages/intro.htm" />
       </list>
     </option>
   </component>
@@ -139,6 +149,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="RailsProjectView" />
       <pane id="Favorites" />
       <pane id="Scope" />
       <pane id="ProjectPane">
@@ -219,6 +230,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dac_module" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dac_module" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="db" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -252,6 +281,42 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dac_module" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dac_module" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="initializers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dac_module" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dac_module" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="environments" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -355,7 +420,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -525,21 +589,21 @@
     <supportedVersion>125</supportedVersion>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-3" y="0" width="2054" height="1129" extended-state="6" />
+    <frame x="-17" y="0" width="2048" height="1125" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32936507" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1541502" sideWeight="0.66369045" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39980158" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32936507" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15113974" sideWeight="0.5926295" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4003984" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32936507" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32738096" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -576,112 +640,110 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+    <entry file="file://$PROJECT_DIR$/app/models/page.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="36" selection-start="1855" selection-end="1855" vertical-scroll-proportion="0.0" />
+        <state line="2" column="30" selection-start="152" selection-end="152" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20100728231922_create_pages.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="5" selection-start="304" selection-end="304" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/pages/hierarchy.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="579" selection-end="579" vertical-scroll-proportion="-5.4545455">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/pages/space.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="69" selection-start="1998" selection-end="1998" vertical-scroll-proportion="0.9435484">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/pages/summary.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="37" selection-start="1882" selection-end="1882" vertical-scroll-proportion="0.4919355">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/pages/font.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="0" selection-start="2967" selection-end="2967" vertical-scroll-proportion="1.2727273">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/pages/intro.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="146" selection-end="146" vertical-scroll-proportion="0.024793388">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/pages/size_weight.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="35" selection-start="554" selection-end="554" vertical-scroll-proportion="0.2231405">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/pages/references.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="37" selection-start="1233" selection-end="1233" vertical-scroll-proportion="-5.4545455">
+        <state line="30" column="47" selection-start="1220" selection-end="1220" vertical-scroll-proportion="-16.818182">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/pages/conclusion.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="33" selection-start="1486" selection-end="1486" vertical-scroll-proportion="0.6446281">
+        <state line="1" column="57" selection-start="136" selection-end="136" vertical-scroll-proportion="0.027272727">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/resets.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="11" selection-start="548" selection-end="555" vertical-scroll-proportion="0.36790925">
-          <folding />
-        </state>
+    <entry file="file://$PROJECT_DIR$/public/images/leading.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/page.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/module/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="8" selection-start="427" selection-end="427" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="21" selection-start="571" selection-end="571" vertical-scroll-proportion="-9.545455">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/grid.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="317" column="16" selection-start="4485" selection-end="4485" vertical-scroll-proportion="0.0">
+        <state line="0" column="42" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/stylesheets/application.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="110" column="22" selection-start="1679" selection-end="1679" vertical-scroll-proportion="0.76635516">
+        <state line="114" column="31" selection-start="2120" selection-end="2120" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/module/index.html.erb">
+    <entry file="file://$PROJECT_DIR$/public/pages/about.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="43" selection-start="667" selection-end="667" vertical-scroll-proportion="0.58064514">
+        <state line="12" column="18" selection-start="999" selection-end="999" vertical-scroll-proportion="-8.181818">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/engage/hierarchy/engage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="90" selection-start="287" selection-end="287" vertical-scroll-proportion="0.16483517">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/engage/size_weight/engage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="90" selection-start="293" selection-end="293" vertical-scroll-proportion="0.16483517">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/engage/space/engage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="90" selection-start="283" selection-end="283" vertical-scroll-proportion="0.16483517">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/engage/font/engage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="11" selection-start="138" selection-end="282" vertical-scroll-proportion="0.13736264">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/pages/font.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="29" selection-start="2918" selection-end="2992" vertical-scroll-proportion="-10.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/pages/size_weight.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="0" selection-start="1854" selection-end="1922" vertical-scroll-proportion="-8.863636">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/pages/space.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="0" selection-start="1616" selection-end="1678" vertical-scroll-proportion="-9.136364">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/pages/hierarchy.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="83" selection-start="662" selection-end="662" vertical-scroll-proportion="-5.4545455">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/pages/intro.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="41" selection-start="287" selection-end="287" vertical-scroll-proportion="0.10989011">
           <folding />
         </state>
       </provider>

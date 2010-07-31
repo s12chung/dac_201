@@ -1,34 +1,20 @@
-<div class="menu grid_2 prefix_1">
-<h4>Menu</h4>
-<ul class="menu-items fade-1">
-<% Page.all_by_number.each do |page| %>
-    <% if @page == page %>
-        <li class="curr"><%= link_to page.title, {:filename => page.filename} %></li>
-        <% else %>
-        <li><%= link_to page.title, :filename => page.filename %></li>
-        <% end %>
-    <% end %>
-</ul>
-</div>
+<% content_for :page_title, @page.title %>
 
-<div class="grid_6">
-  <div class="title">
-    <h2><%= @page.title %></h2>
-  </div>
-  <div class="content">
-    <%= @page.contents %>
-  </div>
-  <div class="footer clearfix">
-    <% temp_page = @page.next
-       if temp_page %>
-        <div class="next">
-          <%= link_to "#{temp_page.title} »", :filename => temp_page.filename %>
-        </div>
-    <% end %>
-    <% temp_page = @page.prev
-       if temp_page %>
-        <%= link_to "« #{temp_page.title}", :filename => temp_page.filename %>
-    <% end %>
-  </div>
+<div class="title">
+  <h2><%= @page.title %></h2>
 </div>
-<div class="clear"></div>
+<div class="content">
+  <%= @page.contents %>
+</div>
+<div class="footer clearfix">
+  <% temp_page = @page.next
+     if temp_page %>
+      <div class="next">
+        <%= link_to "#{temp_page.title} »", :filename => temp_page.filename %>
+      </div>
+  <% end %>
+  <% temp_page = @page.prev
+     if temp_page %>
+      <%= link_to "« #{temp_page.title}", :filename => temp_page.filename %>
+  <% end %>
+</div>

@@ -1,5 +1,6 @@
 class Page < ActiveRecord::Base
-  named_scope :all_by_number, :order => "number ASC"
+  named_scope :all_by_number, :conditions => "number IS NOT NULL", :order => "number ASC"
+  named_scope :about, :conditions => {:number => nil}
 
   def self.create_with_title(title, filename=title.downcase)
     page = find :first, :order => "number DESC"
@@ -8,11 +9,11 @@ class Page < ActiveRecord::Base
   end
 
   def prev
-    Page.find :first, :conditions => {:number => number - 1}
+    if number: Page.find :first, :conditions => {:number => number - 1} end
   end
 
   def next
-    Page.find :first, :conditions => {:number => number + 1}  
+    if number: Page.find :first, :conditions => {:number => number + 1} end
   end
 
   def contents

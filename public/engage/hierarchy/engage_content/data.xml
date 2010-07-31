@@ -1,0 +1,58 @@
+<Interaction Type="Labeled Graphic" Title="Hierarchy" contentfont="Tahoma" dotanimation="glow" defaultimage="false" jpegquality="80" autoplay="false" autoplayduration="5" headingfont="Georgia" navfont="Georgia" soundeffects="true" volumebutton="false" audioquality="low" audiocustombitrate="br112Kbps" audiocustomfrequency="fq12KHz" audiocustomchannel="ccMono" navbuttons="true" forceorder="false" detectflashver="true" animation="bounce" version="2.3.1005.1623" borderstyle="none">
+  <bgimage src="image0.jpg" percent="30" originalSource="imageSource0.png" width="690" height="426" />
+  <labels>
+    <label char="1" panelpos="auto" iconid="6" x="337" y="25">
+      <color name="Red" valuea="0xDD4809" valueb="0x912020" inner="0x5C1414" hovera="0xFCCFBC" hoverb="0xDD4809" />
+      <steps>
+        <Step id="ca813577-cd88-4907-be5a-1051b1b7c30d" name="Overview" title="" number="" audioonly="false" html="&lt;p align='left'&gt;&lt;font face='Tahoma' size='13' color=''&gt;At a quick glace, there is a lot of variation in the type, using font, size and color.&lt;/font&gt;&lt;/p&gt;">
+        </Step>
+      </steps>
+    </label>
+    <label char="2" panelpos="right" iconid="6" x="290" y="113">
+      <color name="Red" valuea="0xDD4809" valueb="0x912020" inner="0x5C1414" hovera="0xFCCFBC" hoverb="0xDD4809" />
+      <steps>
+        <Step id="985a8b77-10bd-4bc1-838f-9af898c03012" name="Title" title="" number="" audioonly="false" html="&lt;p align='left'&gt;&lt;font face='Tahoma' size='13' color=''&gt;Big and bold, the title stands out first. And it should, no one should struggle finding the title.&lt;br&gt;&lt;/br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;font face='Tahoma' size='13' color=''&gt;Also notice that a serif font is used, which is different from the body. Making the title stand out even more.&lt;/font&gt;&lt;/p&gt;">
+        </Step>
+      </steps>
+    </label>
+    <label char="3" panelpos="right" iconid="6" x="149" y="177">
+      <color name="Red" valuea="0xDD4809" valueb="0x912020" inner="0x5C1414" hovera="0xFCCFBC" hoverb="0xDD4809" />
+      <steps>
+        <Step id="f8b20583-3119-4d28-a368-ca3420487af8" name="Authors, date and comments" title="" number="3" audioonly="false" html="&lt;p align='left'&gt;&lt;font face='Tahoma' size='13' color=''&gt;The authors, date and comments are different from the body, but they don't stand out to distraction because of their color.&lt;br /&gt;&lt;br /&gt;Most of the time, these elements are highly de-emphasized, like how Google uses lighter text. Dates on non-news articles usually don't matter.&lt;/font&gt;&lt;/p&gt;">
+        </Step>
+      </steps>
+    </label>
+    <label char="4" panelpos="right" iconid="6" x="283" y="228">
+      <color name="Red" valuea="0xDD4809" valueb="0x912020" inner="0x5C1414" hovera="0xFCCFBC" hoverb="0xDD4809" />
+      <steps>
+        <Step id="9cf2d391-d77e-4361-86ec-86f1f5667d2c" name="Links" title="" number="" audioonly="false" html="&lt;p align='left'&gt;&lt;font face='Tahoma' size='13' color=''&gt;Links stand out with their color and underline. These properties help users notice the links, but they're not overemphasized to the point of distracting readers.&lt;/font&gt;&lt;/p&gt;">
+        </Step>
+      </steps>
+    </label>
+    <label char="5" panelpos="bottom" iconid="6" x="395" y="120">
+      <color name="Red" valuea="0xDD4809" valueb="0x912020" inner="0x5C1414" hovera="0xFCCFBC" hoverb="0xDD4809" />
+      <steps>
+        <Step id="8b4a6e2b-2ee2-436e-bfdb-458a36f58c5c" name="Headings" title="" number="" audioonly="false" html="&lt;p align='left'&gt;&lt;font face='Tahoma' size='13' color=''&gt;These headings stand out with the bold, color and a sans-serif font to make them stand out while being scanned.&lt;/font&gt;&lt;/p&gt;">
+        </Step>
+      </steps>
+    </label>
+    <label char="6" panelpos="left" iconid="6" x="558" y="54">
+      <color name="Red" valuea="0xDD4809" valueb="0x912020" inner="0x5C1414" hovera="0xFCCFBC" hoverb="0xDD4809" />
+      <steps>
+        <Step id="10b0fc2b-e08d-446d-90fb-cb53e827b50d" name="De-emphasis" title="" number="6" audioonly="false" html="&lt;p align='left'&gt;&lt;font face='Tahoma' size='13' color=''&gt;Notice how the date and the authors below are de-emphasized with the lighter colors? UX Mag did this because this information is rarely scanned for.&lt;/font&gt;&lt;/p&gt;">
+        </Step>
+      </steps>
+    </label>
+  </labels>
+  <introduction>
+    <label panelpos="auto" iconid="intro" x="676" y="15">
+      <color name="Green" valuea="0x99CC00" valueb="0x006600" inner="0x002F00" hovera="0xFFFFFF" hoverb="0x99CC00" />
+      <steps>
+        <Step id="7e0f3a95-7e1b-41c8-9ade-6e7823805d70" name="Introduction" title="" number="0" audioonly="false" html="&lt;p align='left'&gt;&lt;font face='Tahoma' size='13' color=''&gt;This is a web page of User Experience Magazine (UX Mag) on &lt;/font&gt;&lt;font face='Tahoma' size='13' color='#0000ff'&gt;&lt;u&gt;&lt;a target='_blank' href='http://uxmag.com'&gt;uxmag.com&lt;/a&gt;&lt;/u&gt;&lt;/font&gt;&lt;font face='Tahoma' size='13' color='#000000'&gt;. Let`s see how hierarchy came into play in the design.&lt;/font&gt;&lt;/p&gt;" intro="true">
+        </Step>
+      </steps>
+    </label>
+  </introduction>
+  <starttip show="false" text="Click next to continue" />
+  <resume id="c4163d10-146e-4deb-b968-99853367d4c5" enabled="false" />
+</Interaction>

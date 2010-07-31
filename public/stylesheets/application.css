@@ -1,15 +1,15 @@
-/*Need to change font sizes*/
 body {
     font-family: Tahoma, Geneva, Verdana, sans-serif;
     color: #222;
 }
 
-p, code {
-    margin-top: 14.25px;
-}
+p, code { margin-top: 14.25px; }
+p.no-space { margin-top: 0; }
+p { line-height: 150%; }
 
-p {
-    line-height: 150%;
+img {
+    display: block;
+    margin: 10px auto;
 }
 
 code {
@@ -21,13 +21,8 @@ code {
     padding: 12px;
 }
 
-.fade-1 {
-    color: #555;
-}
-
-.fade-2 {
-    color: #888;
-}
+.fade-1 { color: #555; }
+.fade-2 { color: #888; }
 
 a { color: #111; text-decoration: none; border-bottom: 1px dotted #111; }
 a:hover { color: #FFF; background-color: #111; }
@@ -61,15 +56,24 @@ h4 {
     margin-bottom: .25em;
 }
 
-div.menu a {
-    border-bottom: none;
+div.menu { padding-top: 120px; }
+div.menu a { border-bottom: none; }
+.menu-items li.curr {
+    font-weight: bold;
+    list-style: square outside;
 }
+.menu-items li.about { padding-top: 30px; }
+.menu-items a {
+    display: block;
+    font-size: 80%;
+    padding: 5px 5px 5px 0;
+}
+
 
 div.content ul {
     margin: 14.25px 0 0 30px;
     list-style: circle inside;
 }
-
 div.content li {
     line-height: 150%;
     margin-top: 7px;
@@ -80,7 +84,8 @@ div.head {
     margin: 30px 0 50px 0;
     text-align: center;
 }
-
+div.head a { color:inherit; border: inherit; }
+div.head a:hover { color: inherit; background-color: inherit; }
 .name {
     font-size: .9em;
     font-style: italic;
@@ -91,21 +96,10 @@ div.head {
     margin-bottom: 40px;
 }
 
-.menu-items li {
-    font-size: 80%;
-    padding-top: 10px;
-}
-
-.menu-items li.curr {
-    font-weight: bold;
-    list-style: square outside;
-}
-
 div.footer {
     margin: 50px 0 30px 0;
     line-height: 150%;
 }
-
 div.footer .next {
     float: right;
     text-align: right;
@@ -115,11 +109,7 @@ span.resources,span.resources p  {
     margin-top: 2px;
     line-height: 150%;
 }
+span.resources > div { margin-top: 14.25px; }
+span.resources a { font-weight: bold; }
 
-span.resources > div {
-    margin-top: 14.25px;
-}
-
-span.resources a {
-    font-weight: bold;
-}
+div.close {text-align: center;}

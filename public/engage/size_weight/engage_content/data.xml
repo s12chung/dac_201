@@ -1,0 +1,51 @@
+<Interaction Type="Labeled Graphic" Title="Size and Weight" contentfont="Tahoma" dotanimation="glow" defaultimage="false" jpegquality="80" autoplay="false" autoplayduration="5" headingfont="Georgia" navfont="Georgia" soundeffects="true" volumebutton="false" audioquality="low" audiocustombitrate="br112Kbps" audiocustomfrequency="fq12KHz" audiocustomchannel="ccMono" navbuttons="true" forceorder="false" detectflashver="true" animation="bounce" version="2.3.1005.1623" borderstyle="none">
+  <bgimage src="image0.jpg" percent="30" originalSource="imageSource0.png" width="690" height="426" />
+  <labels>
+    <label char="1" panelpos="auto" iconid="6" x="284" y="111">
+      <color name="Red" valuea="0xDD4809" valueb="0x912020" inner="0x5C1414" hovera="0xFCCFBC" hoverb="0xDD4809" />
+      <steps>
+        <Step id="ca813577-cd88-4907-be5a-1051b1b7c30d" name="Font sizes" title="" number="1" audioonly="false" html="&lt;p align='left'&gt;&lt;font face='Tahoma' size='13' color=''&gt;UX Mag doesn't seem to follow conventions in terms of font size.&lt;br&gt;&lt;/br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;font face='Tahoma' size='13' color=''&gt;The title 40 pixels is and everything else (including the body) is 11 pixels. The headline is a lot bigger than usual (of 18 to 20 pixels and 24 to 26 pixels) and the body is a little smaller than usual (of 12 to 14 pixels). 40 pixels does not follow scaling, while 11 pixels does.&lt;/font&gt;&lt;/p&gt;">
+        </Step>
+      </steps>
+    </label>
+    <label char="2" panelpos="bottom" iconid="6" x="339" y="232">
+      <color name="Red" valuea="0xDD4809" valueb="0x912020" inner="0x5C1414" hovera="0xFCCFBC" hoverb="0xDD4809" />
+      <steps>
+        <Step id="985a8b77-10bd-4bc1-838f-9af898c03012" name="Color" title="" number="2" audioonly="false" html="&lt;p align='left'&gt;&lt;font face='Tahoma' size='13' color=''&gt;In terms of color, the web site follows the common convention of dark gray over white.&lt;/font&gt;&lt;/p&gt;">
+        </Step>
+      </steps>
+    </label>
+    <label char="3" panelpos="top" iconid="6" x="182" y="216">
+      <color name="Red" valuea="0xDD4809" valueb="0x912020" inner="0x5C1414" hovera="0xFCCFBC" hoverb="0xDD4809" />
+      <steps>
+        <Step id="f8b20583-3119-4d28-a368-ca3420487af8" name="Links" title="" number="3" audioonly="false" html="&lt;p align='left'&gt;&lt;font face='Tahoma' size='13' color=''&gt;Links are associated with color and underlining. Although it's hard to see, to decrease noise, UX Mag uses a dotted underline instead of the standard underline to help indicate links.&lt;/font&gt;&lt;/p&gt;">
+        </Step>
+      </steps>
+    </label>
+    <label char="4" panelpos="bottom" iconid="6" x="423" y="120">
+      <color name="Red" valuea="0xDD4809" valueb="0x912020" inner="0x5C1414" hovera="0xFCCFBC" hoverb="0xDD4809" />
+      <steps>
+        <Step id="9cf2d391-d77e-4361-86ec-86f1f5667d2c" name="Bold" title="" number="4" audioonly="false" html="&lt;p align='left'&gt;&lt;font face='Tahoma' size='13' color=''&gt;Bolding is used to add weight to other elements. This is the most common way to add weight.&lt;/font&gt;&lt;/p&gt;">
+        </Step>
+      </steps>
+    </label>
+    <label char="5" panelpos="left" iconid="6" x="548" y="60">
+      <color name="Red" valuea="0xDD4809" valueb="0x912020" inner="0x5C1414" hovera="0xFCCFBC" hoverb="0xDD4809" />
+      <steps>
+        <Step id="8b4a6e2b-2ee2-436e-bfdb-458a36f58c5c" name="Light text" title="" number="5" audioonly="false" html="&lt;p align='left'&gt;&lt;font face='Tahoma' size='13' color=''&gt;Notice how Monday and the author names are light to de-emphasize the content.&lt;/font&gt;&lt;/p&gt;">
+        </Step>
+      </steps>
+    </label>
+  </labels>
+  <introduction>
+    <label panelpos="auto" iconid="intro" x="676" y="15">
+      <color name="Green" valuea="0x99CC00" valueb="0x006600" inner="0x002F00" hovera="0xFFFFFF" hoverb="0x99CC00" />
+      <steps>
+        <Step id="7e0f3a95-7e1b-41c8-9ade-6e7823805d70" name="Introduction" title="" number="0" audioonly="false" html="&lt;p align='left'&gt;&lt;font face='Tahoma' size='13' color=''&gt;This is a web page of User Experience Magazine (UX Mag) on &lt;/font&gt;&lt;font face='Tahoma' size='13' color='#0000ff'&gt;&lt;u&gt;&lt;a target='_blank' href='http://uxmag.com'&gt;uxmag.com&lt;/a&gt;&lt;/u&gt;&lt;/font&gt;&lt;font face='Tahoma' size='13' color='#000000'&gt;. We will examine the size and weights of the fonts.&lt;/font&gt;&lt;/p&gt;" intro="true">
+        </Step>
+      </steps>
+    </label>
+  </introduction>
+  <starttip show="false" text="Click next to continue" />
+  <resume id="7d4c5165-b49d-4f25-9af3-2742d84dc030" enabled="false" />
+</Interaction>

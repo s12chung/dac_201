@@ -1,9 +1,8 @@
-<p>Most people associate typography with fonts. These slides will go into an
-in-depth explanation on how to select fonts for a website.</p>
+<p>Most people associate typography with fonts. This page will go through some basics of web fonts.</p>
 
 <h3>Serifs</h3>
 <p>Before going into the various types of fonts, you should understand that most 
-fonts can generally fall under two categories, serif and sans-serif.</p>
+fonts generally fall under two categories, serif and sans-serif.</p>
 
 <ul>
 	<li ><strong>Serif </strong>fonts have non-structural details at the ends of
@@ -16,18 +15,15 @@ fonts can generally fall under two categories, serif and sans-serif.</p>
 <img src="/images/serif.png" alt="serif_sans-serif">
 
 <p>Serif fonts are easier to read because the serifs help the words flow and
-distinguish differences between characters. They have been very popular with 
-print copies.</p>
-
-<p>Sans-serif fonts more popular on computers because low resolution screens and
-slow computers make difficult to show the serifs and thinner strokes of serif 
-fonts on the computer screen, especially for small font sizes.</p>
-
-<p>In terms of style, serif fonts are look for traditional, while san-serif
+distinguish characters. They have been very popular with 
+print copy. On the other hand, sans-serif fonts are more popular on computers because low resolution screens and
+slow computers make it difficult to show the serifs and  thinner strokes, especially for small font sizes.
+However, with faster computers, serif fonts are being more widely used in the body.
+In terms of style, serif fonts look more traditional, while san-serif
 fonts are clean and modern.</p>
 
-<p>As a general rule, it&#39;s best to <strong>stick with two
-different fonts, one serif and one sans-serif</strong> (unless you&#39;re a 
+<p>As a general rule, when using more than one font, use two fonts,
+one serif and one sans-serif</strong> (unless you&#39;re a 
 designer) because it is often difficult to tell the difference between two of 
 the same type of fonts. Also, it&#39;s common to see the less readable font as a 
 header and the more readable font as the body because of the different font 
@@ -39,9 +35,6 @@ the most popular fonts. See
 <a href="http://www.smashingmagazine.com/2009/08/20/typographic-design-survey-best-practices-from-the-best-blogs/">
 this link</a> for more statistics.</p>
 
-<p>Caption: Left: sans-serif font Helvetica Neue, right: serif font Baskerville
-(serifs highlighted in red)</p>
-
 <h3>Web fonts and font stacks</h3>
 
 <p>Generally, in order for web sites to display a font, the web site viewer must
@@ -51,24 +44,23 @@ the default serif or sans-serif font installed.</p>
 <p>Sadly, not everyone has all the fonts installed. And different operating
 systems (i.e. Mac or Windows) have different pre-installed fonts. For example, 
 the 99.71% of Mac computers have Helvetica (which is considered the Apple font), 
-compared to less than 10% of Windows computers (Arial is considered Windows&#39; 
+compared to the 10% of Windows computers (Arial is considered Windows&#39; 
 Helvetica).</p>
 
 <p>To compensate for this problem, web designers create font stacks. A
-<strong>font stack</strong> is a prioritized list of fonts, 
-where the browser will go through until it finds a font that is installed in the 
-computer, so the can be displayed.</p>
+<strong>font stack</strong> is a prioritized list of fonts that
+the browser will go through until it finds a font that is installed in the 
+computer and display it.</p>
 
 <h3>Example</h3>
 <p>Need an example? Try this <a href="/engage/font/engage.html" target="_blank">interactive module</a>,
-that explains the fonts in User Experience Magazine (UX Mag) website.
-This website will be used as an example for all the tips.</p>
+that explains the fonts in the User Experience Magazine (UX Mag) website.
+This website will be used as an example for all of the tips.</p>
 
 <h3>Implementation</h3>
 
-<p>Implementing font stacks is simple. Just add the CSS property, <em>font-family</em>.</p>
-
-<p>Below is an example of a font stack:</p>
+<p>Implementing font stacks is simple. Just add the CSS property, <em>font-family</em>.
+An example of a font stack is down below:</p>
 
 <code>
 body { /* means for all text */ <br/>

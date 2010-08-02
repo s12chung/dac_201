@@ -72,7 +72,7 @@ div.menu a { border-bottom: none; }
 
 div.content ul {
     margin: 14.25px 0 0 30px;
-    list-style: circle inside;
+    list-style: circle outside;
 }
 div.content li {
     line-height: 150%;

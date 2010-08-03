@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager" verified="true">
     <list default="true" readonly="true" id="28ada848-b252-49d5-8d43-0736412944fb" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/weight.jpg" afterPath="$PROJECT_DIR$/public/images/weight.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/serif.png" afterPath="$PROJECT_DIR$/public/images/serif.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/pages/size_weight.htm" afterPath="$PROJECT_DIR$/public/pages/size_weight.htm" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/pages/space.htm" afterPath="$PROJECT_DIR$/public/pages/space.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20100728231922_create_pages.rb" afterPath="$PROJECT_DIR$/db/migrate/20100728231922_create_pages.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/application.css" afterPath="$PROJECT_DIR$/public/stylesheets/application.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/pages/summary.htm" afterPath="$PROJECT_DIR$/public/pages/summary.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/pages/about.htm" afterPath="$PROJECT_DIR$/public/pages/about.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/size.png" afterPath="$PROJECT_DIR$/public/images/size.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/measure.png" afterPath="$PROJECT_DIR$/public/images/measure.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/pages/conclusion.htm" afterPath="$PROJECT_DIR$/public/pages/conclusion.htm" />
@@ -17,8 +19,8 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/pages/intro.htm" afterPath="$PROJECT_DIR$/public/pages/intro.htm" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/font_stack.png" afterPath="$PROJECT_DIR$/public/images/font_stack.png" />
     </list>
-    <ignored path=".idea/workspace.xml" />
     <ignored path="dac_module.iws" />
+    <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,82 +41,10 @@
   <component name="FileColors" enabled="true" enabledForTabs="true" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="summary.htm" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/pages/summary.htm">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="25" selection-start="1856" selection-end="1856" vertical-scroll-proportion="-22.636364">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="intro.htm" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/pages/intro.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="28" selection-start="570" selection-end="570" vertical-scroll-proportion="-4.7727275">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="space.htm" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/pages/space.htm">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="66" selection-start="966" selection-end="966" vertical-scroll-proportion="-12.272727">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hierarchy.htm" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/pages/hierarchy.htm">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="44" selection-start="118" selection-end="118" vertical-scroll-proportion="-0.6818182">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="conclusion.htm" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/pages/conclusion.htm">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="78" selection-start="157" selection-end="157" vertical-scroll-proportion="-0.6818182">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="font.htm" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/pages/font.htm">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="62" column="0" selection-start="3094" selection-end="3094" vertical-scroll-proportion="-15.681818">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="size_weight.htm" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/pages/size_weight.htm">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="96" selection-start="1987" selection-end="1987" vertical-scroll-proportion="-23.863636">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="about.htm" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/pages/about.htm">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="106" selection-start="578" selection-end="578" vertical-scroll-proportion="0.12135922">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="96" selection-start="1039" selection-end="1039" vertical-scroll-proportion="-15.681818">
+            <state line="5" column="30" selection-start="378" selection-end="378" vertical-scroll-proportion="-3.409091">
               <folding />
             </state>
           </provider>
@@ -123,7 +53,70 @@
       <file leaf-file-name="application.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/stylesheets/application.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="74" column="30" selection-start="1407" selection-end="1407" vertical-scroll-proportion="-10.2">
+            <state line="20" column="18" selection-start="395" selection-end="395" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="conclusion.htm" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/pages/conclusion.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="48" selection-start="127" selection-end="162" vertical-scroll-proportion="-0.6818182">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="font.htm" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/pages/font.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="75" column="18" selection-start="3666" selection-end="3666" vertical-scroll-proportion="-43.909092">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="size_weight.htm" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/pages/size_weight.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="103" selection-start="288" selection-end="288" vertical-scroll-proportion="14.727273">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="space.htm" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/pages/space.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="46" column="84" selection-start="2384" selection-end="2384" vertical-scroll-proportion="0.7826087">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hierarchy.htm" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/pages/hierarchy.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="42" selection-start="702" selection-end="702" vertical-scroll-proportion="-6.818182">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="20100728231922_create_pages.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/migrate/20100728231922_create_pages.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="4" selection-start="493" selection-end="493" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="summary.htm" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/pages/summary.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="42" selection-start="654" selection-end="654" vertical-scroll-proportion="-10.227273">
               <folding />
             </state>
           </provider>
@@ -144,17 +137,17 @@
         <option value="$PROJECT_DIR$/public/engage/hierarchy/engage.html" />
         <option value="$PROJECT_DIR$/public/engage/size_weight/engage.html" />
         <option value="$PROJECT_DIR$/public/engage/space/engage.html" />
-        <option value="$PROJECT_DIR$/db/migrate/20100728231922_create_pages.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/public/pages/about.htm" />
         <option value="$PROJECT_DIR$/public/stylesheets/application.css" />
+        <option value="$PROJECT_DIR$/public/pages/conclusion.htm" />
+        <option value="$PROJECT_DIR$/public/pages/hierarchy.htm" />
+        <option value="$PROJECT_DIR$/db/migrate/20100728231922_create_pages.rb" />
+        <option value="$PROJECT_DIR$/public/pages/summary.htm" />
+        <option value="$PROJECT_DIR$/public/pages/intro.htm" />
         <option value="$PROJECT_DIR$/public/pages/font.htm" />
         <option value="$PROJECT_DIR$/public/pages/size_weight.htm" />
-        <option value="$PROJECT_DIR$/public/pages/intro.htm" />
-        <option value="$PROJECT_DIR$/public/pages/hierarchy.htm" />
-        <option value="$PROJECT_DIR$/public/pages/conclusion.htm" />
-        <option value="$PROJECT_DIR$/public/pages/summary.htm" />
         <option value="$PROJECT_DIR$/public/pages/space.htm" />
-        <option value="$PROJECT_DIR$/public/pages/about.htm" />
       </list>
     </option>
   </component>
@@ -191,7 +184,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="RailsProjectView" />
+      <pane id="Favorites" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -442,8 +436,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Favorites" />
-      <pane id="RailsProjectView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -613,16 +606,16 @@
     <supportedVersion>125</supportedVersion>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="2048" height="1125" extended-state="0" />
+    <frame x="-3" y="0" width="2054" height="1129" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15113974" sideWeight="0.66434264" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4003984" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32868525" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3285573" sideWeight="0.66468257" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39980158" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32837301" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -674,11 +667,6 @@
         <state line="5" column="11" selection-start="138" selection-end="282" vertical-scroll-proportion="0.13736264" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20100728231922_create_pages.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="55" selection-start="661" selection-end="661" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
@@ -696,70 +684,77 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="96" selection-start="1039" selection-end="1039" vertical-scroll-proportion="-15.681818">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/application.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="30" selection-start="1407" selection-end="1407" vertical-scroll-proportion="-10.2">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/pages/font.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="0" selection-start="3094" selection-end="3094" vertical-scroll-proportion="-15.681818">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/pages/intro.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="28" selection-start="570" selection-end="570" vertical-scroll-proportion="-4.7727275">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/pages/hierarchy.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="44" selection-start="118" selection-end="118" vertical-scroll-proportion="-0.6818182">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/pages/conclusion.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="78" selection-start="157" selection-end="157" vertical-scroll-proportion="-0.6818182">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/pages/summary.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="25" selection-start="1856" selection-end="1856" vertical-scroll-proportion="-22.636364">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/pages/space.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="66" selection-start="966" selection-end="966" vertical-scroll-proportion="-12.272727">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/pages/size_weight.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="96" selection-start="1987" selection-end="1987" vertical-scroll-proportion="-23.863636">
+        <state line="23" column="96" selection-start="1039" selection-end="1039" vertical-scroll-proportion="0.35974973">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/pages/about.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="106" selection-start="578" selection-end="578" vertical-scroll-proportion="0.12135922">
+        <state line="5" column="106" selection-start="578" selection-end="578" vertical-scroll-proportion="0.078206465">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/pages/hierarchy.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="42" selection-start="702" selection-end="702" vertical-scroll-proportion="-6.818182">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20100728231922_create_pages.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="4" selection-start="493" selection-end="493" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/pages/summary.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="42" selection-start="654" selection-end="654" vertical-scroll-proportion="-10.227273">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/pages/conclusion.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="48" selection-start="127" selection-end="162" vertical-scroll-proportion="-0.6818182">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/application.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="18" selection-start="395" selection-end="395" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/pages/intro.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="30" selection-start="378" selection-end="378" vertical-scroll-proportion="-3.409091">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/pages/font.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="75" column="18" selection-start="3666" selection-end="3666" vertical-scroll-proportion="-43.909092">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/pages/size_weight.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="103" selection-start="288" selection-end="288" vertical-scroll-proportion="14.727273">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/pages/space.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="84" selection-start="2384" selection-end="2384" vertical-scroll-proportion="0.7826087">
           <folding />
         </state>
       </provider>

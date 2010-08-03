@@ -17,9 +17,15 @@ code {
     font-size: 14px;
     display: block;
     border: 1px dashed black;
-    background: #EFEFEF;
+    background: #F5F5F5;
     padding: 12px;
 }
+
+em {
+    font-family: "Courier New", Courier, monospace;
+    font-style: normal;
+}
+
 
 .fade-1 { color: #555; }
 .fade-2 { color: #888; }

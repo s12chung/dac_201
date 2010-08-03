@@ -13247,3 +13247,1348 @@ Rendering module/index
   [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM `pages` WHERE (number IS NOT NULL) ORDER BY number ASC[0m
   [4;35;1mPage Load (3.0ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`number` IS NULL) LIMIT 1[0m
 Completed in 54ms (View: 12, DB: 38) | 200 OK [http://localhost/module/about]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ModuleController#index (for 127.0.0.1 at 2010-08-01 21:15:05) [GET]
+Redirected to http://localhost:3000/module/intro
+  [4;36;1mPage Load (27.7ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`filename` IS NULL) LIMIT 1[0m
+Completed in 104ms (DB: 28) | 302 Found [http://localhost/]
+  [4;35;1mSQL (11.8ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ModuleController#index (for 127.0.0.1 at 2010-08-01 21:15:06) [GET]
+  Parameters: {"filename"=>"intro"}
+  [4;35;1mPage Load (0.3ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`filename` = 'intro') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering module/index
+  [4;36;1mPage Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (1.0ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`number` = 1) LIMIT 1[0m
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` = -1) LIMIT 1[0m
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (number IS NOT NULL) ORDER BY number ASC[0m
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` IS NULL) LIMIT 1[0m
+Completed in 69ms (View: 42, DB: 15) | 200 OK [http://localhost/module/intro]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ModuleController#index (for 127.0.0.1 at 2010-08-01 21:15:08) [GET]
+  Parameters: {"filename"=>"size_weight"}
+  [4;35;1mPage Load (21.2ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`filename` = 'size_weight') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering module/index
+  [4;36;1mPage Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.7ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`number` = 3) LIMIT 1[0m
+  [4;36;1mPage Load (11.1ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` = 1) LIMIT 1[0m
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (number IS NOT NULL) ORDER BY number ASC[0m
+  [4;36;1mPage Load (25.6ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` IS NULL) LIMIT 1[0m
+Completed in 86ms (View: 16, DB: 60) | 200 OK [http://localhost/module/size_weight]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ModuleController#index (for 127.0.0.1 at 2010-08-01 21:15:15) [GET]
+  Parameters: {"filename"=>"size_weight"}
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`filename` = 'size_weight') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering module/index
+  [4;36;1mPage Columns (1.7ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.3ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`number` = 3) LIMIT 1[0m
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` = 1) LIMIT 1[0m
+  [4;35;1mPage Load (0.3ms)[0m   [0mSELECT * FROM `pages` WHERE (number IS NOT NULL) ORDER BY number ASC[0m
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` IS NULL) LIMIT 1[0m
+Completed in 25ms (View: 14, DB: 3) | 200 OK [http://localhost/module/size_weight]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ModuleController#index (for 127.0.0.1 at 2010-08-01 21:15:15) [GET]
+  Parameters: {"filename"=>"font"}
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`filename` = 'font') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering module/index
+  [4;36;1mPage Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.7ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`number` = 2) LIMIT 1[0m
+  [4;36;1mPage Load (0.6ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` = 0) LIMIT 1[0m
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (number IS NOT NULL) ORDER BY number ASC[0m
+  [4;36;1mPage Load (0.7ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` IS NULL) LIMIT 1[0m
+Completed in 28ms (View: 15, DB: 4) | 200 OK [http://localhost/module/font]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ModuleController#index (for 127.0.0.1 at 2010-08-01 21:15:27) [GET]
+  Parameters: {"filename"=>"font"}
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`filename` = 'font') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering module/index
+  [4;36;1mPage Columns (3.8ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`number` = 2) LIMIT 1[0m
+  [4;36;1mPage Load (0.1ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` = 0) LIMIT 1[0m
+  [4;35;1mPage Load (0.4ms)[0m   [0mSELECT * FROM `pages` WHERE (number IS NOT NULL) ORDER BY number ASC[0m
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` IS NULL) LIMIT 1[0m
+Completed in 30ms (View: 13, DB: 5) | 200 OK [http://localhost/module/font]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ModuleController#index (for 127.0.0.1 at 2010-08-01 21:15:50) [GET]
+  Parameters: {"filename"=>"font"}
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`filename` = 'font') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering module/index
+  [4;36;1mPage Columns (2.3ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`number` = 2) LIMIT 1[0m
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` = 0) LIMIT 1[0m
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (number IS NOT NULL) ORDER BY number ASC[0m
+  [4;36;1mPage Load (0.9ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` IS NULL) LIMIT 1[0m
+Completed in 30ms (View: 16, DB: 5) | 200 OK [http://localhost/module/font]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ModuleController#index (for 127.0.0.1 at 2010-08-01 21:16:08) [GET]
+  Parameters: {"filename"=>"size_weight"}
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`filename` = 'size_weight') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering module/index
+  [4;36;1mPage Columns (3.0ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.1ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`number` = 3) LIMIT 1[0m
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` = 1) LIMIT 1[0m
+  [4;35;1mPage Load (0.1ms)[0m   [0mSELECT * FROM `pages` WHERE (number IS NOT NULL) ORDER BY number ASC[0m
+  [4;36;1mPage Load (0.1ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` IS NULL) LIMIT 1[0m
+Completed in 28ms (View: 14, DB: 4) | 200 OK [http://localhost/module/size_weight]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ModuleController#index (for 127.0.0.1 at 2010-08-01 21:16:09) [GET]
+  Parameters: {"filename"=>"hierarchy"}
+  [4;35;1mPage Load (0.1ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`filename` = 'hierarchy') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering module/index
+  [4;36;1mPage Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.1ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`number` = 5) LIMIT 1[0m
+  [4;36;1mPage Load (0.1ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` = 3) LIMIT 1[0m
+  [4;35;1mPage Load (0.1ms)[0m   [0mSELECT * FROM `pages` WHERE (number IS NOT NULL) ORDER BY number ASC[0m
+  [4;36;1mPage Load (0.3ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` IS NULL) LIMIT 1[0m
+Completed in 25ms (View: 13, DB: 2) | 200 OK [http://localhost/module/hierarchy]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ModuleController#index (for 127.0.0.1 at 2010-08-01 21:16:10) [GET]
+  Parameters: {"filename"=>"conclusion"}
+  [4;35;1mPage Load (0.5ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`filename` = 'conclusion') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering module/index
+  [4;36;1mPage Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.5ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`number` = 6) LIMIT 1[0m
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` = 4) LIMIT 1[0m
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (number IS NOT NULL) ORDER BY number ASC[0m
+  [4;36;1mPage Load (0.3ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` IS NULL) LIMIT 1[0m
+Completed in 43ms (View: 14, DB: 3) | 200 OK [http://localhost/module/conclusion]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ModuleController#index (for 127.0.0.1 at 2010-08-01 21:16:11) [GET]
+  Parameters: {"filename"=>"references"}
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`filename` = 'references') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering module/index
+  [4;36;1mPage Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.7ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`number` = 8) LIMIT 1[0m
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` = 6) LIMIT 1[0m
+  [4;35;1mPage Load (0.4ms)[0m   [0mSELECT * FROM `pages` WHERE (number IS NOT NULL) ORDER BY number ASC[0m
+  [4;36;1mPage Load (0.1ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` IS NULL) LIMIT 1[0m
+Completed in 24ms (View: 13, DB: 3) | 200 OK [http://localhost/module/references]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ModuleController#index (for 127.0.0.1 at 2010-08-01 21:16:12) [GET]
+  Parameters: {"filename"=>"summary"}
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`filename` = 'summary') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering module/index
+  [4;36;1mPage Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.1ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`number` = 7) LIMIT 1[0m
+  [4;36;1mPage Load (0.1ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` = 5) LIMIT 1[0m
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (number IS NOT NULL) ORDER BY number ASC[0m
+  [4;36;1mPage Load (0.6ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` IS NULL) LIMIT 1[0m
+Completed in 25ms (View: 13, DB: 2) | 200 OK [http://localhost/module/summary]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ModuleController#index (for 127.0.0.1 at 2010-08-01 21:16:13) [GET]
+  Parameters: {"filename"=>"hierarchy"}
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`filename` = 'hierarchy') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering module/index
+  [4;36;1mPage Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (1.3ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`number` = 5) LIMIT 1[0m
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` = 3) LIMIT 1[0m
+  [4;35;1mPage Load (0.1ms)[0m   [0mSELECT * FROM `pages` WHERE (number IS NOT NULL) ORDER BY number ASC[0m
+  [4;36;1mPage Load (0.3ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` IS NULL) LIMIT 1[0m
+Completed in 28ms (View: 14, DB: 4) | 200 OK [http://localhost/module/hierarchy]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ModuleController#index (for 127.0.0.1 at 2010-08-01 21:16:14) [GET]
+  Parameters: {"filename"=>"space"}
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`filename` = 'space') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering module/index
+  [4;36;1mPage Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`number` = 4) LIMIT 1[0m
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` = 2) LIMIT 1[0m
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (number IS NOT NULL) ORDER BY number ASC[0m
+  [4;36;1mPage Load (0.3ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` IS NULL) LIMIT 1[0m
+Completed in 30ms (View: 13, DB: 3) | 200 OK [http://localhost/module/space]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ModuleController#index (for 127.0.0.1 at 2010-08-01 21:16:15) [GET]
+  Parameters: {"filename"=>"size_weight"}
+  [4;35;1mPage Load (0.1ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`filename` = 'size_weight') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering module/index
+  [4;36;1mPage Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.3ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`number` = 3) LIMIT 1[0m
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` = 1) LIMIT 1[0m
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (number IS NOT NULL) ORDER BY number ASC[0m
+  [4;36;1mPage Load (0.1ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` IS NULL) LIMIT 1[0m
+Completed in 22ms (View: 13, DB: 2) | 200 OK [http://localhost/module/size_weight]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ModuleController#index (for 127.0.0.1 at 2010-08-01 21:16:16) [GET]
+  Parameters: {"filename"=>"font"}
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`filename` = 'font') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering module/index
+  [4;36;1mPage Columns (3.7ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.3ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`number` = 2) LIMIT 1[0m
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` = 0) LIMIT 1[0m
+  [4;35;1mPage Load (0.4ms)[0m   [0mSELECT * FROM `pages` WHERE (number IS NOT NULL) ORDER BY number ASC[0m
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` IS NULL) LIMIT 1[0m
+Completed in 33ms (View: 13, DB: 5) | 200 OK [http://localhost/module/font]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ModuleController#index (for 127.0.0.1 at 2010-08-01 21:16:16) [GET]
+  Parameters: {"filename"=>"intro"}
+  [4;35;1mPage Load (0.5ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`filename` = 'intro') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering module/index
+  [4;36;1mPage Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`number` = 1) LIMIT 1[0m
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` = -1) LIMIT 1[0m
+  [4;35;1mPage Load (0.3ms)[0m   [0mSELECT * FROM `pages` WHERE (number IS NOT NULL) ORDER BY number ASC[0m
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` IS NULL) LIMIT 1[0m
+Completed in 23ms (View: 12, DB: 2) | 200 OK [http://localhost/module/intro]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ModuleController#index (for 127.0.0.1 at 2010-08-01 21:16:19) [GET]
+  Parameters: {"filename"=>"font"}
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`filename` = 'font') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering module/index
+  [4;36;1mPage Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.7ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`number` = 2) LIMIT 1[0m
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` = 0) LIMIT 1[0m
+  [4;35;1mPage Load (0.3ms)[0m   [0mSELECT * FROM `pages` WHERE (number IS NOT NULL) ORDER BY number ASC[0m
+  [4;36;1mPage Load (0.7ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` IS NULL) LIMIT 1[0m
+Completed in 26ms (View: 15, DB: 3) | 200 OK [http://localhost/module/font]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ModuleController#index (for 127.0.0.1 at 2010-08-01 21:16:22) [GET]
+  Parameters: {"filename"=>"size_weight"}
+  [4;35;1mPage Load (0.1ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`filename` = 'size_weight') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering module/index
+  [4;36;1mPage Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.4ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`number` = 3) LIMIT 1[0m
+  [4;36;1mPage Load (0.5ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` = 1) LIMIT 1[0m
+  [4;35;1mPage Load (0.7ms)[0m   [0mSELECT * FROM `pages` WHERE (number IS NOT NULL) ORDER BY number ASC[0m
+  [4;36;1mPage Load (0.4ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` IS NULL) LIMIT 1[0m
+Completed in 26ms (View: 14, DB: 3) | 200 OK [http://localhost/module/size_weight]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ModuleController#index (for 127.0.0.1 at 2010-08-01 21:16:25) [GET]
+  Parameters: {"filename"=>"space"}
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`filename` = 'space') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering module/index
+  [4;36;1mPage Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.1ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`number` = 4) LIMIT 1[0m
+  [4;36;1mPage Load (0.1ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` = 2) LIMIT 1[0m
+  [4;35;1mPage Load (0.1ms)[0m   [0mSELECT * FROM `pages` WHERE (number IS NOT NULL) ORDER BY number ASC[0m
+  [4;36;1mPage Load (0.3ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` IS NULL) LIMIT 1[0m
+Completed in 25ms (View: 14, DB: 2) | 200 OK [http://localhost/module/space]
+  [4;35;1mSQL (7.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ModuleController#index (for 127.0.0.1 at 2010-08-01 21:16:27) [GET]
+  Parameters: {"filename"=>"hierarchy"}
+  [4;35;1mPage Load (2.0ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`filename` = 'hierarchy') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering module/index
+  [4;36;1mPage Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.1ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`number` = 5) LIMIT 1[0m
+  [4;36;1mPage Load (0.1ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` = 3) LIMIT 1[0m
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (number IS NOT NULL) ORDER BY number ASC[0m
+  [4;36;1mPage Load (0.1ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` IS NULL) LIMIT 1[0m
+Completed in 25ms (View: 13, DB: 11) | 200 OK [http://localhost/module/hierarchy]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ModuleController#index (for 127.0.0.1 at 2010-08-01 21:16:29) [GET]
+  Parameters: {"filename"=>"conclusion"}
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`filename` = 'conclusion') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering module/index
+  [4;36;1mPage Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`number` = 6) LIMIT 1[0m
+  [4;36;1mPage Load (0.1ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` = 4) LIMIT 1[0m
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (number IS NOT NULL) ORDER BY number ASC[0m
+  [4;36;1mPage Load (0.5ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` IS NULL) LIMIT 1[0m
+Completed in 23ms (View: 13, DB: 3) | 200 OK [http://localhost/module/conclusion]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ModuleController#index (for 127.0.0.1 at 2010-08-01 21:16:31) [GET]
+  Parameters: {"filename"=>"summary"}
+  [4;35;1mPage Load (0.4ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`filename` = 'summary') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering module/index
+  [4;36;1mPage Columns (1.3ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`number` = 7) LIMIT 1[0m
+  [4;36;1mPage Load (0.1ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` = 5) LIMIT 1[0m
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (number IS NOT NULL) ORDER BY number ASC[0m
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` IS NULL) LIMIT 1[0m
+Completed in 26ms (View: 15, DB: 3) | 200 OK [http://localhost/module/summary]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ModuleController#index (for 127.0.0.1 at 2010-08-01 21:16:36) [GET]
+  Parameters: {"filename"=>"references"}
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`filename` = 'references') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering module/index
+  [4;36;1mPage Columns (1.6ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.3ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`number` = 8) LIMIT 1[0m
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` = 6) LIMIT 1[0m
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (number IS NOT NULL) ORDER BY number ASC[0m
+  [4;36;1mPage Load (0.4ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` IS NULL) LIMIT 1[0m
+Completed in 24ms (View: 13, DB: 3) | 200 OK [http://localhost/module/references]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ModuleController#index (for 127.0.0.1 at 2010-08-01 21:16:38) [GET]
+  Parameters: {"filename"=>"summary"}
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`filename` = 'summary') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering module/index
+  [4;36;1mPage Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.3ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`number` = 7) LIMIT 1[0m
+  [4;36;1mPage Load (15.9ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` = 5) LIMIT 1[0m
+  [4;35;1mPage Load (0.1ms)[0m   [0mSELECT * FROM `pages` WHERE (number IS NOT NULL) ORDER BY number ASC[0m
+  [4;36;1mPage Load (0.4ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` IS NULL) LIMIT 1[0m
+Completed in 85ms (View: 59, DB: 18) | 200 OK [http://localhost/module/summary]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ModuleController#index (for 127.0.0.1 at 2010-08-01 21:16:39) [GET]
+  Parameters: {"filename"=>"conclusion"}
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`filename` = 'conclusion') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering module/index
+  [4;36;1mPage Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.1ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`number` = 6) LIMIT 1[0m
+  [4;36;1mPage Load (0.1ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` = 4) LIMIT 1[0m
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (number IS NOT NULL) ORDER BY number ASC[0m
+  [4;36;1mPage Load (0.5ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` IS NULL) LIMIT 1[0m
+Completed in 25ms (View: 15, DB: 2) | 200 OK [http://localhost/module/conclusion]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ModuleController#index (for 127.0.0.1 at 2010-08-01 21:16:49) [GET]
+  Parameters: {"filename"=>"summary"}
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`filename` = 'summary') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering module/index
+  [4;36;1mPage Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.5ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`number` = 7) LIMIT 1[0m
+  [4;36;1mPage Load (0.4ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` = 5) LIMIT 1[0m
+  [4;35;1mPage Load (0.4ms)[0m   [0mSELECT * FROM `pages` WHERE (number IS NOT NULL) ORDER BY number ASC[0m
+  [4;36;1mPage Load (0.1ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` IS NULL) LIMIT 1[0m
+Completed in 25ms (View: 14, DB: 3) | 200 OK [http://localhost/module/summary]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ModuleController#index (for 127.0.0.1 at 2010-08-01 21:16:54) [GET]
+  Parameters: {"filename"=>"references"}
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`filename` = 'references') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering module/index
+  [4;36;1mPage Columns (1.7ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`number` = 8) LIMIT 1[0m
+  [4;36;1mPage Load (0.1ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` = 6) LIMIT 1[0m
+  [4;35;1mPage Load (0.3ms)[0m   [0mSELECT * FROM `pages` WHERE (number IS NOT NULL) ORDER BY number ASC[0m
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` IS NULL) LIMIT 1[0m
+Completed in 24ms (View: 13, DB: 3) | 200 OK [http://localhost/module/references]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ModuleController#index (for 127.0.0.1 at 2010-08-01 21:17:25) [GET]
+  Parameters: {"filename"=>"summary"}
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`filename` = 'summary') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering module/index
+  [4;36;1mPage Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.1ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`number` = 7) LIMIT 1[0m
+  [4;36;1mPage Load (0.1ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` = 5) LIMIT 1[0m
+  [4;35;1mPage Load (0.4ms)[0m   [0mSELECT * FROM `pages` WHERE (number IS NOT NULL) ORDER BY number ASC[0m
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` IS NULL) LIMIT 1[0m
+Completed in 23ms (View: 12, DB: 2) | 200 OK [http://localhost/module/summary]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ModuleController#index (for 127.0.0.1 at 2010-08-01 21:17:26) [GET]
+  Parameters: {"filename"=>"hierarchy"}
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`filename` = 'hierarchy') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering module/index
+  [4;36;1mPage Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.1ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`number` = 5) LIMIT 1[0m
+  [4;36;1mPage Load (0.1ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` = 3) LIMIT 1[0m
+  [4;35;1mPage Load (0.7ms)[0m   [0mSELECT * FROM `pages` WHERE (number IS NOT NULL) ORDER BY number ASC[0m
+  [4;36;1mPage Load (0.3ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` IS NULL) LIMIT 1[0m
+Completed in 24ms (View: 14, DB: 3) | 200 OK [http://localhost/module/hierarchy]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ModuleController#index (for 127.0.0.1 at 2010-08-01 21:17:26) [GET]
+  Parameters: {"filename"=>"font"}
+  [4;35;1mPage Load (0.1ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`filename` = 'font') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering module/index
+  [4;36;1mPage Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.1ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`number` = 2) LIMIT 1[0m
+  [4;36;1mPage Load (0.1ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` = 0) LIMIT 1[0m
+  [4;35;1mPage Load (0.1ms)[0m   [0mSELECT * FROM `pages` WHERE (number IS NOT NULL) ORDER BY number ASC[0m
+  [4;36;1mPage Load (0.1ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` IS NULL) LIMIT 1[0m
+Completed in 23ms (View: 13, DB: 2) | 200 OK [http://localhost/module/font]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ModuleController#index (for 127.0.0.1 at 2010-08-01 21:17:27) [GET]
+  Parameters: {"filename"=>"intro"}
+  [4;35;1mPage Load (1.1ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`filename` = 'intro') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering module/index
+  [4;36;1mPage Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.3ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`number` = 1) LIMIT 1[0m
+  [4;36;1mPage Load (0.1ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` = -1) LIMIT 1[0m
+  [4;35;1mPage Load (0.4ms)[0m   [0mSELECT * FROM `pages` WHERE (number IS NOT NULL) ORDER BY number ASC[0m
+  [4;36;1mPage Load (0.1ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` IS NULL) LIMIT 1[0m
+Completed in 23ms (View: 13, DB: 3) | 200 OK [http://localhost/module/intro]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ModuleController#index (for 127.0.0.1 at 2010-08-01 21:17:30) [GET]
+  Parameters: {"filename"=>"about"}
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`filename` = 'about') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering module/index
+  [4;36;1mPage Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.6ms)[0m   [0mSELECT * FROM `pages` WHERE (number IS NOT NULL) ORDER BY number ASC[0m
+  [4;36;1mPage Load (0.4ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` IS NULL) LIMIT 1[0m
+Completed in 86ms (View: 11, DB: 2) | 200 OK [http://localhost/module/about]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ModuleController#index (for 127.0.0.1 at 2010-08-01 21:17:32) [GET]
+  Parameters: {"filename"=>"references"}
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`filename` = 'references') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering module/index
+  [4;36;1mPage Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`number` = 8) LIMIT 1[0m
+  [4;36;1mPage Load (0.4ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` = 6) LIMIT 1[0m
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (number IS NOT NULL) ORDER BY number ASC[0m
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` IS NULL) LIMIT 1[0m
+Completed in 25ms (View: 13, DB: 3) | 200 OK [http://localhost/module/references]
+  [4;35;1mSQL (0.4ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ModuleController#index (for 127.0.0.1 at 2010-08-01 21:17:33) [GET]
+  Parameters: {"filename"=>"about"}
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`filename` = 'about') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering module/index
+  [4;36;1mPage Columns (1.3ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.4ms)[0m   [0mSELECT * FROM `pages` WHERE (number IS NOT NULL) ORDER BY number ASC[0m
+  [4;36;1mPage Load (0.8ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` IS NULL) LIMIT 1[0m
+Completed in 22ms (View: 11, DB: 3) | 200 OK [http://localhost/module/about]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ModuleController#index (for 127.0.0.1 at 2010-08-01 21:17:35) [GET]
+  Parameters: {"filename"=>"size_weight"}
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`filename` = 'size_weight') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering module/index
+  [4;36;1mPage Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.1ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`number` = 3) LIMIT 1[0m
+  [4;36;1mPage Load (0.1ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` = 1) LIMIT 1[0m
+  [4;35;1mPage Load (0.1ms)[0m   [0mSELECT * FROM `pages` WHERE (number IS NOT NULL) ORDER BY number ASC[0m
+  [4;36;1mPage Load (0.1ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` IS NULL) LIMIT 1[0m
+Completed in 30ms (View: 13, DB: 2) | 200 OK [http://localhost/module/size_weight]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ModuleController#index (for 127.0.0.1 at 2010-08-01 21:18:10) [GET]
+  Parameters: {"filename"=>"references"}
+  [4;35;1mPage Load (0.1ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`filename` = 'references') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering module/index
+  [4;36;1mPage Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`number` = 8) LIMIT 1[0m
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` = 6) LIMIT 1[0m
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (number IS NOT NULL) ORDER BY number ASC[0m
+  [4;36;1mPage Load (0.3ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` IS NULL) LIMIT 1[0m
+Completed in 23ms (View: 13, DB: 3) | 200 OK [http://localhost/module/references]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ModuleController#index (for 127.0.0.1 at 2010-08-01 21:19:17) [GET]
+  Parameters: {"filename"=>"about"}
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`filename` = 'about') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering module/index
+  [4;36;1mPage Columns (1.7ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (number IS NOT NULL) ORDER BY number ASC[0m
+  [4;36;1mPage Load (0.5ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` IS NULL) LIMIT 1[0m
+Completed in 21ms (View: 11, DB: 3) | 200 OK [http://localhost/module/about]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ModuleController#index (for 127.0.0.1 at 2010-08-01 21:19:17) [GET]
+  Parameters: {"filename"=>"conclusion"}
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`filename` = 'conclusion') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering module/index
+  [4;36;1mPage Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`number` = 6) LIMIT 1[0m
+  [4;36;1mPage Load (0.3ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` = 4) LIMIT 1[0m
+  [4;35;1mPage Load (0.1ms)[0m   [0mSELECT * FROM `pages` WHERE (number IS NOT NULL) ORDER BY number ASC[0m
+  [4;36;1mPage Load (0.1ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` IS NULL) LIMIT 1[0m
+Completed in 24ms (View: 14, DB: 2) | 200 OK [http://localhost/module/conclusion]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ModuleController#index (for 127.0.0.1 at 2010-08-01 21:19:18) [GET]
+  Parameters: {"filename"=>"size_weight"}
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`filename` = 'size_weight') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering module/index
+  [4;36;1mPage Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`number` = 3) LIMIT 1[0m
+  [4;36;1mPage Load (0.1ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` = 1) LIMIT 1[0m
+  [4;35;1mPage Load (0.1ms)[0m   [0mSELECT * FROM `pages` WHERE (number IS NOT NULL) ORDER BY number ASC[0m
+  [4;36;1mPage Load (0.5ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` IS NULL) LIMIT 1[0m
+Completed in 24ms (View: 13, DB: 2) | 200 OK [http://localhost/module/size_weight]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ModuleController#index (for 127.0.0.1 at 2010-08-03 12:50:13) [GET]
+Redirected to http://localhost:3000/module/intro
+  [4;36;1mPage Load (8.7ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`filename` IS NULL) LIMIT 1[0m
+Completed in 71ms (DB: 9) | 302 Found [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ModuleController#index (for 127.0.0.1 at 2010-08-03 12:50:14) [GET]
+  Parameters: {"filename"=>"intro"}
+  [4;35;1mPage Load (0.6ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`filename` = 'intro') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering module/index
+  [4;36;1mPage Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.5ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`number` = 1) LIMIT 1[0m
+  [4;36;1mPage Load (0.5ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` = -1) LIMIT 1[0m
+  [4;35;1mPage Load (0.7ms)[0m   [0mSELECT * FROM `pages` WHERE (number IS NOT NULL) ORDER BY number ASC[0m
+  [4;36;1mPage Load (0.8ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` IS NULL) LIMIT 1[0m
+Completed in 120ms (View: 92, DB: 4) | 200 OK [http://localhost/module/intro]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ModuleController#index (for 127.0.0.1 at 2010-08-03 12:50:41) [GET]
+  Parameters: {"filename"=>"font"}
+  [4;35;1mPage Load (0.6ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`filename` = 'font') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering module/index
+  [4;36;1mPage Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.4ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`number` = 2) LIMIT 1[0m
+  [4;36;1mPage Load (0.4ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` = 0) LIMIT 1[0m
+  [4;35;1mPage Load (0.6ms)[0m   [0mSELECT * FROM `pages` WHERE (number IS NOT NULL) ORDER BY number ASC[0m
+  [4;36;1mPage Load (0.1ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` IS NULL) LIMIT 1[0m
+Completed in 45ms (View: 33, DB: 3) | 200 OK [http://localhost/module/font]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ModuleController#index (for 127.0.0.1 at 2010-08-03 12:50:43) [GET]
+  Parameters: {"filename"=>"intro"}
+  [4;35;1mPage Load (0.1ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`filename` = 'intro') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering module/index
+  [4;36;1mPage Columns (0.8ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.1ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`number` = 1) LIMIT 1[0m
+  [4;36;1mPage Load (0.1ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` = -1) LIMIT 1[0m
+  [4;35;1mPage Load (0.1ms)[0m   [0mSELECT * FROM `pages` WHERE (number IS NOT NULL) ORDER BY number ASC[0m
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` IS NULL) LIMIT 1[0m
+Completed in 24ms (View: 13, DB: 2) | 200 OK [http://localhost/module/intro]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ModuleController#index (for 127.0.0.1 at 2010-08-03 12:50:44) [GET]
+  Parameters: {"filename"=>"size_weight"}
+  [4;35;1mPage Load (0.5ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`filename` = 'size_weight') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering module/index
+  [4;36;1mPage Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.5ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`number` = 3) LIMIT 1[0m
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` = 1) LIMIT 1[0m
+  [4;35;1mPage Load (0.4ms)[0m   [0mSELECT * FROM `pages` WHERE (number IS NOT NULL) ORDER BY number ASC[0m
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` IS NULL) LIMIT 1[0m
+Completed in 46ms (View: 34, DB: 3) | 200 OK [http://localhost/module/size_weight]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ModuleController#index (for 127.0.0.1 at 2010-08-03 12:50:51) [GET]
+  Parameters: {"filename"=>"size_weight"}
+  [4;35;1mPage Load (3.7ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`filename` = 'size_weight') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering module/index
+  [4;36;1mPage Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.3ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`number` = 3) LIMIT 1[0m
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` = 1) LIMIT 1[0m
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (number IS NOT NULL) ORDER BY number ASC[0m
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` IS NULL) LIMIT 1[0m
+Completed in 27ms (View: 14, DB: 6) | 200 OK [http://localhost/module/size_weight]
+  [4;35;1mSQL (0.4ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (6.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ModuleController#index (for 127.0.0.1 at 2010-08-03 12:50:52) [GET]
+  Parameters: {"filename"=>"size_weight"}
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`filename` = 'size_weight') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering module/index
+  [4;36;1mPage Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.4ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`number` = 3) LIMIT 1[0m
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` = 1) LIMIT 1[0m
+  [4;35;1mPage Load (0.3ms)[0m   [0mSELECT * FROM `pages` WHERE (number IS NOT NULL) ORDER BY number ASC[0m
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` IS NULL) LIMIT 1[0m
+Completed in 25ms (View: 13, DB: 9) | 200 OK [http://localhost/module/size_weight]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ModuleController#index (for 127.0.0.1 at 2010-08-03 12:51:28) [GET]
+  Parameters: {"filename"=>"size_weight"}
+  [4;35;1mPage Load (2.0ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`filename` = 'size_weight') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering module/index
+  [4;36;1mPage Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`number` = 3) LIMIT 1[0m
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` = 1) LIMIT 1[0m
+  [4;35;1mPage Load (0.7ms)[0m   [0mSELECT * FROM `pages` WHERE (number IS NOT NULL) ORDER BY number ASC[0m
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` IS NULL) LIMIT 1[0m
+Completed in 31ms (View: 18, DB: 5) | 200 OK [http://localhost/module/size_weight]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ModuleController#index (for 127.0.0.1 at 2010-08-03 12:52:02) [GET]
+  Parameters: {"filename"=>"size_weight"}
+  [4;35;1mPage Load (0.5ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`filename` = 'size_weight') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering module/index
+  [4;36;1mPage Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`number` = 3) LIMIT 1[0m
+  [4;36;1mPage Load (0.1ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` = 1) LIMIT 1[0m
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (number IS NOT NULL) ORDER BY number ASC[0m
+  [4;36;1mPage Load (0.1ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` IS NULL) LIMIT 1[0m
+Completed in 24ms (View: 14, DB: 2) | 200 OK [http://localhost/module/size_weight]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ModuleController#index (for 127.0.0.1 at 2010-08-03 12:53:20) [GET]
+  Parameters: {"filename"=>"size_weight"}
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`filename` = 'size_weight') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering module/index
+  [4;36;1mPage Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.1ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`number` = 3) LIMIT 1[0m
+  [4;36;1mPage Load (0.1ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` = 1) LIMIT 1[0m
+  [4;35;1mPage Load (0.1ms)[0m   [0mSELECT * FROM `pages` WHERE (number IS NOT NULL) ORDER BY number ASC[0m
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` IS NULL) LIMIT 1[0m
+Completed in 26ms (View: 14, DB: 2) | 200 OK [http://localhost/module/size_weight]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ModuleController#index (for 127.0.0.1 at 2010-08-03 12:53:21) [GET]
+  Parameters: {"filename"=>"font"}
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`filename` = 'font') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering module/index
+  [4;36;1mPage Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.1ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`number` = 2) LIMIT 1[0m
+  [4;36;1mPage Load (0.1ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` = 0) LIMIT 1[0m
+  [4;35;1mPage Load (8.7ms)[0m   [0mSELECT * FROM `pages` WHERE (number IS NOT NULL) ORDER BY number ASC[0m
+  [4;36;1mPage Load (0.1ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` IS NULL) LIMIT 1[0m
+Completed in 35ms (View: 15, DB: 11) | 200 OK [http://localhost/module/font]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ModuleController#index (for 127.0.0.1 at 2010-08-03 12:53:43) [GET]
+  Parameters: {"filename"=>"font"}
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`filename` = 'font') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering module/index
+  [4;36;1mPage Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (7.5ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`number` = 2) LIMIT 1[0m
+  [4;36;1mPage Load (0.1ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` = 0) LIMIT 1[0m
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (number IS NOT NULL) ORDER BY number ASC[0m
+  [4;36;1mPage Load (19.3ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` IS NULL) LIMIT 1[0m
+Completed in 52ms (View: 14, DB: 29) | 200 OK [http://localhost/module/font]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ModuleController#index (for 127.0.0.1 at 2010-08-03 12:53:45) [GET]
+  Parameters: {"filename"=>"font"}
+  [4;35;1mPage Load (0.7ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`filename` = 'font') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering module/index
+  [4;36;1mPage Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.1ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`number` = 2) LIMIT 1[0m
+  [4;36;1mPage Load (0.1ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` = 0) LIMIT 1[0m
+  [4;35;1mPage Load (0.4ms)[0m   [0mSELECT * FROM `pages` WHERE (number IS NOT NULL) ORDER BY number ASC[0m
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` IS NULL) LIMIT 1[0m
+Completed in 25ms (View: 14, DB: 3) | 200 OK [http://localhost/module/font]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ModuleController#index (for 127.0.0.1 at 2010-08-03 12:53:49) [GET]
+  Parameters: {"filename"=>"font"}
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`filename` = 'font') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering module/index
+  [4;36;1mPage Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`number` = 2) LIMIT 1[0m
+  [4;36;1mPage Load (0.5ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` = 0) LIMIT 1[0m
+  [4;35;1mPage Load (0.6ms)[0m   [0mSELECT * FROM `pages` WHERE (number IS NOT NULL) ORDER BY number ASC[0m
+  [4;36;1mPage Load (3.0ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` IS NULL) LIMIT 1[0m
+Completed in 31ms (View: 16, DB: 6) | 200 OK [http://localhost/module/font]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ModuleController#index (for 127.0.0.1 at 2010-08-03 12:57:36) [GET]
+  Parameters: {"filename"=>"intro"}
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`filename` = 'intro') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering module/index
+  [4;36;1mPage Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.1ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`number` = 1) LIMIT 1[0m
+  [4;36;1mPage Load (0.3ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` = -1) LIMIT 1[0m
+  [4;35;1mPage Load (0.1ms)[0m   [0mSELECT * FROM `pages` WHERE (number IS NOT NULL) ORDER BY number ASC[0m
+  [4;36;1mPage Load (0.1ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` IS NULL) LIMIT 1[0m
+Completed in 22ms (View: 12, DB: 2) | 200 OK [http://localhost/module/intro]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ModuleController#index (for 127.0.0.1 at 2010-08-03 12:57:37) [GET]
+  Parameters: {"filename"=>"font"}
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`filename` = 'font') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering module/index
+  [4;36;1mPage Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.1ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`number` = 2) LIMIT 1[0m
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` = 0) LIMIT 1[0m
+  [4;35;1mPage Load (0.3ms)[0m   [0mSELECT * FROM `pages` WHERE (number IS NOT NULL) ORDER BY number ASC[0m
+  [4;36;1mPage Load (0.3ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` IS NULL) LIMIT 1[0m
+Completed in 83ms (View: 72, DB: 3) | 200 OK [http://localhost/module/font]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ModuleController#index (for 127.0.0.1 at 2010-08-03 12:57:38) [GET]
+  Parameters: {"filename"=>"size_weight"}
+  [4;35;1mPage Load (0.5ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`filename` = 'size_weight') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering module/index
+  [4;36;1mPage Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.1ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`number` = 3) LIMIT 1[0m
+  [4;36;1mPage Load (0.1ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` = 1) LIMIT 1[0m
+  [4;35;1mPage Load (0.6ms)[0m   [0mSELECT * FROM `pages` WHERE (number IS NOT NULL) ORDER BY number ASC[0m
+  [4;36;1mPage Load (0.1ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` IS NULL) LIMIT 1[0m
+Completed in 24ms (View: 13, DB: 3) | 200 OK [http://localhost/module/size_weight]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ModuleController#index (for 127.0.0.1 at 2010-08-03 12:57:41) [GET]
+  Parameters: {"filename"=>"space"}
+  [4;35;1mPage Load (0.7ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`filename` = 'space') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering module/index
+  [4;36;1mPage Columns (1.3ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.4ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`number` = 4) LIMIT 1[0m
+  [4;36;1mPage Load (0.3ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` = 2) LIMIT 1[0m
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (number IS NOT NULL) ORDER BY number ASC[0m
+  [4;36;1mPage Load (0.8ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` IS NULL) LIMIT 1[0m
+Completed in 26ms (View: 14, DB: 4) | 200 OK [http://localhost/module/space]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ModuleController#index (for 127.0.0.1 at 2010-08-03 12:57:42) [GET]
+  Parameters: {"filename"=>"font"}
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`filename` = 'font') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering module/index
+  [4;36;1mPage Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`number` = 2) LIMIT 1[0m
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` = 0) LIMIT 1[0m
+  [4;35;1mPage Load (0.1ms)[0m   [0mSELECT * FROM `pages` WHERE (number IS NOT NULL) ORDER BY number ASC[0m
+  [4;36;1mPage Load (0.8ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` IS NULL) LIMIT 1[0m
+Completed in 24ms (View: 14, DB: 3) | 200 OK [http://localhost/module/font]
+  [4;35;1mSQL (0.4ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (2.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ModuleController#index (for 127.0.0.1 at 2010-08-03 12:57:43) [GET]
+  Parameters: {"filename"=>"intro"}
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`filename` = 'intro') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering module/index
+  [4;36;1mPage Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.1ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`number` = 1) LIMIT 1[0m
+  [4;36;1mPage Load (0.1ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` = -1) LIMIT 1[0m
+  [4;35;1mPage Load (0.1ms)[0m   [0mSELECT * FROM `pages` WHERE (number IS NOT NULL) ORDER BY number ASC[0m
+  [4;36;1mPage Load (1.8ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` IS NULL) LIMIT 1[0m
+Completed in 24ms (View: 12, DB: 6) | 200 OK [http://localhost/module/intro]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (2.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (2.2ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreatePages (20100728231922)
+  [4;36;1mSQL (67.3ms)[0m   [0;1mDROP TABLE `pages`[0m
+  [4;35;1mSQL (54.9ms)[0m   [0mDELETE FROM schema_migrations WHERE version = '20100728231922'[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreatePages (20100728231922)
+  [4;35;1mSQL (127.1ms)[0m   [0mCREATE TABLE `pages` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `number` int(11), `filename` varchar(255), `title` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (259.0ms)[0m   [0;1mCREATE INDEX `index_pages_on_filename` ON `pages` (`filename`)[0m
+  [4;35;1mSQL (226.5ms)[0m   [0mCREATE INDEX `index_pages_on_number` ON `pages` (`number`)[0m
+  [4;36;1mPage Delete all (0.5ms)[0m   [0;1mDELETE FROM `pages` [0m
+  [4;35;1mPage Load (2.4ms)[0m   [0mSELECT * FROM `pages` ORDER BY number DESC LIMIT 1[0m
+  [4;36;1mPage Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mBEGIN[0m
+  [4;36;1mPage Create (1.6ms)[0m   [0;1mINSERT INTO `pages` (`number`, `created_at`, `title`, `updated_at`, `filename`) VALUES(0, '2010-08-03 17:07:14', 'Introduction', '2010-08-03 17:07:14', 'intro')[0m
+  [4;35;1mSQL (49.3ms)[0m   [0mCOMMIT[0m
+  [4;36;1mPage Load (0.6ms)[0m   [0;1mSELECT * FROM `pages` ORDER BY number DESC LIMIT 1[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mPage Create (0.4ms)[0m   [0;1mINSERT INTO `pages` (`number`, `created_at`, `title`, `updated_at`, `filename`) VALUES(1, '2010-08-03 17:07:14', 'Font', '2010-08-03 17:07:14', 'font')[0m
+  [4;35;1mSQL (50.7ms)[0m   [0mCOMMIT[0m
+  [4;36;1mPage Load (0.4ms)[0m   [0;1mSELECT * FROM `pages` ORDER BY number DESC LIMIT 1[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mPage Create (1.0ms)[0m   [0;1mINSERT INTO `pages` (`number`, `created_at`, `title`, `updated_at`, `filename`) VALUES(2, '2010-08-03 17:07:14', 'Size and weight', '2010-08-03 17:07:14', 'size_weight')[0m
+  [4;35;1mSQL (39.6ms)[0m   [0mCOMMIT[0m
+  [4;36;1mPage Load (0.5ms)[0m   [0;1mSELECT * FROM `pages` ORDER BY number DESC LIMIT 1[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mPage Create (0.4ms)[0m   [0;1mINSERT INTO `pages` (`number`, `created_at`, `title`, `updated_at`, `filename`) VALUES(3, '2010-08-03 17:07:14', 'Space', '2010-08-03 17:07:14', 'space')[0m
+  [4;35;1mSQL (40.0ms)[0m   [0mCOMMIT[0m
+  [4;36;1mPage Load (0.6ms)[0m   [0;1mSELECT * FROM `pages` ORDER BY number DESC LIMIT 1[0m
+  [4;35;1mSQL (0.9ms)[0m   [0mBEGIN[0m
+  [4;36;1mPage Create (0.5ms)[0m   [0;1mINSERT INTO `pages` (`number`, `created_at`, `title`, `updated_at`, `filename`) VALUES(4, '2010-08-03 17:07:14', 'Hierarchy', '2010-08-03 17:07:14', 'hierarchy')[0m
+  [4;35;1mSQL (39.2ms)[0m   [0mCOMMIT[0m
+  [4;36;1mPage Load (0.7ms)[0m   [0;1mSELECT * FROM `pages` ORDER BY number DESC LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mPage Create (0.4ms)[0m   [0;1mINSERT INTO `pages` (`number`, `created_at`, `title`, `updated_at`, `filename`) VALUES(5, '2010-08-03 17:07:14', 'Summary', '2010-08-03 17:07:14', 'summary')[0m
+  [4;35;1mSQL (40.0ms)[0m   [0mCOMMIT[0m
+  [4;36;1mPage Load (0.5ms)[0m   [0;1mSELECT * FROM `pages` ORDER BY number DESC LIMIT 1[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mPage Create (0.4ms)[0m   [0;1mINSERT INTO `pages` (`number`, `created_at`, `title`, `updated_at`, `filename`) VALUES(6, '2010-08-03 17:07:14', 'Conclusion', '2010-08-03 17:07:14', 'conclusion')[0m
+  [4;35;1mSQL (40.1ms)[0m   [0mCOMMIT[0m
+  [4;36;1mPage Load (0.5ms)[0m   [0;1mSELECT * FROM `pages` ORDER BY number DESC LIMIT 1[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mBEGIN[0m
+  [4;36;1mPage Create (0.5ms)[0m   [0;1mINSERT INTO `pages` (`number`, `created_at`, `title`, `updated_at`, `filename`) VALUES(7, '2010-08-03 17:07:14', 'References', '2010-08-03 17:07:14', 'references')[0m
+  [4;35;1mSQL (40.1ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mPage Create (0.4ms)[0m   [0mINSERT INTO `pages` (`number`, `created_at`, `title`, `updated_at`, `filename`) VALUES(NULL, '2010-08-03 17:07:14', 'About', '2010-08-03 17:07:14', 'about')[0m
+  [4;36;1mSQL (41.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (44.3ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20100728231922')[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSHOW FIELDS FROM `pages`[0m
+  [4;36;1mSQL (1.2ms)[0m   [0;1mdescribe `pages`[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSHOW KEYS FROM `pages`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ModuleController#index (for 127.0.0.1 at 2010-08-03 13:07:16) [GET]
+  Parameters: {"filename"=>"intro"}
+  [4;35;1mPage Load (0.6ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`filename` = 'intro') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering module/index
+  [4;36;1mPage Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.7ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`number` = 1) LIMIT 1[0m
+  [4;36;1mPage Load (0.5ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` = -1) LIMIT 1[0m
+  [4;35;1mPage Load (0.5ms)[0m   [0mSELECT * FROM `pages` WHERE (number IS NOT NULL) ORDER BY number ASC[0m
+  [4;36;1mPage Load (0.6ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` IS NULL) LIMIT 1[0m
+Completed in 27ms (View: 14, DB: 4) | 200 OK [http://localhost/module/intro]
+  [4;35;1mSQL (1.8ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (3.7ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ModuleController#index (for 127.0.0.1 at 2010-08-03 13:07:17) [GET]
+  Parameters: {"filename"=>"intro"}
+  [4;35;1mPage Load (0.1ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`filename` = 'intro') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering module/index
+  [4;36;1mPage Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.1ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`number` = 1) LIMIT 1[0m
+  [4;36;1mPage Load (0.1ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` = -1) LIMIT 1[0m
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (number IS NOT NULL) ORDER BY number ASC[0m
+  [4;36;1mPage Load (0.1ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` IS NULL) LIMIT 1[0m
+Completed in 22ms (View: 12, DB: 7) | 200 OK [http://localhost/module/intro]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ModuleController#index (for 127.0.0.1 at 2010-08-03 13:08:02) [GET]
+  Parameters: {"filename"=>"intro"}
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`filename` = 'intro') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering module/index
+  [4;36;1mPage Columns (5.0ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.3ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`number` = 1) LIMIT 1[0m
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` = -1) LIMIT 1[0m
+  [4;35;1mPage Load (12.5ms)[0m   [0mSELECT * FROM `pages` WHERE (number IS NOT NULL) ORDER BY number ASC[0m
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` IS NULL) LIMIT 1[0m
+Completed in 42ms (View: 15, DB: 19) | 200 OK [http://localhost/module/intro]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ModuleController#index (for 127.0.0.1 at 2010-08-03 13:08:42) [GET]
+  Parameters: {"filename"=>"intro"}
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`filename` = 'intro') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering module/index
+  [4;36;1mPage Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`number` = 1) LIMIT 1[0m
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` = -1) LIMIT 1[0m
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (number IS NOT NULL) ORDER BY number ASC[0m
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` IS NULL) LIMIT 1[0m
+Completed in 24ms (View: 13, DB: 2) | 200 OK [http://localhost/module/intro]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ModuleController#index (for 127.0.0.1 at 2010-08-03 13:09:34) [GET]
+  Parameters: {"filename"=>"intro"}
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`filename` = 'intro') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering module/index
+  [4;36;1mPage Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.5ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`number` = 1) LIMIT 1[0m
+  [4;36;1mPage Load (0.3ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` = -1) LIMIT 1[0m
+  [4;35;1mPage Load (0.4ms)[0m   [0mSELECT * FROM `pages` WHERE (number IS NOT NULL) ORDER BY number ASC[0m
+  [4;36;1mPage Load (0.3ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` IS NULL) LIMIT 1[0m
+Completed in 33ms (View: 18, DB: 3) | 200 OK [http://localhost/module/intro]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ModuleController#index (for 127.0.0.1 at 2010-08-03 13:10:05) [GET]
+  Parameters: {"filename"=>"font"}
+  [4;35;1mPage Load (2.5ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`filename` = 'font') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering module/index
+  [4;36;1mPage Columns (1.6ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.7ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`number` = 2) LIMIT 1[0m
+  [4;36;1mPage Load (0.5ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` = 0) LIMIT 1[0m
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (number IS NOT NULL) ORDER BY number ASC[0m
+  [4;36;1mPage Load (0.5ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` IS NULL) LIMIT 1[0m
+Completed in 31ms (View: 16, DB: 6) | 200 OK [http://localhost/module/font]
+  [4;35;1mSQL (0.5ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ModuleController#index (for 127.0.0.1 at 2010-08-03 13:11:03) [GET]
+  Parameters: {"filename"=>"font"}
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`filename` = 'font') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering module/index
+  [4;36;1mPage Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`number` = 2) LIMIT 1[0m
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` = 0) LIMIT 1[0m
+  [4;35;1mPage Load (0.3ms)[0m   [0mSELECT * FROM `pages` WHERE (number IS NOT NULL) ORDER BY number ASC[0m
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` IS NULL) LIMIT 1[0m
+Completed in 34ms (View: 15, DB: 3) | 200 OK [http://localhost/module/font]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ModuleController#index (for 127.0.0.1 at 2010-08-03 13:11:39) [GET]
+  Parameters: {"filename"=>"font"}
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`filename` = 'font') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering module/index
+  [4;36;1mPage Columns (1.4ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`number` = 2) LIMIT 1[0m
+  [4;36;1mPage Load (0.5ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` = 0) LIMIT 1[0m
+  [4;35;1mPage Load (0.4ms)[0m   [0mSELECT * FROM `pages` WHERE (number IS NOT NULL) ORDER BY number ASC[0m
+  [4;36;1mPage Load (0.3ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` IS NULL) LIMIT 1[0m
+Completed in 28ms (View: 15, DB: 4) | 200 OK [http://localhost/module/font]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ModuleController#index (for 127.0.0.1 at 2010-08-03 13:22:31) [GET]
+  Parameters: {"filename"=>"font"}
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`filename` = 'font') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering module/index
+  [4;36;1mPage Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.1ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`number` = 2) LIMIT 1[0m
+  [4;36;1mPage Load (0.1ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` = 0) LIMIT 1[0m
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (number IS NOT NULL) ORDER BY number ASC[0m
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` IS NULL) LIMIT 1[0m
+Completed in 38ms (View: 13, DB: 2) | 200 OK [http://localhost/module/font]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ModuleController#index (for 127.0.0.1 at 2010-08-03 13:23:04) [GET]
+  Parameters: {"filename"=>"size_weight"}
+  [4;35;1mPage Load (13.0ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`filename` = 'size_weight') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering module/index
+  [4;36;1mPage Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.6ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`number` = 3) LIMIT 1[0m
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` = 1) LIMIT 1[0m
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (number IS NOT NULL) ORDER BY number ASC[0m
+  [4;36;1mPage Load (0.4ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` IS NULL) LIMIT 1[0m
+Completed in 42ms (View: 15, DB: 16) | 200 OK [http://localhost/module/size_weight]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ModuleController#index (for 127.0.0.1 at 2010-08-03 13:23:52) [GET]
+  Parameters: {"filename"=>"size_weight"}
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`filename` = 'size_weight') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering module/index
+  [4;36;1mPage Columns (2.6ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.4ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`number` = 3) LIMIT 1[0m
+  [4;36;1mPage Load (0.3ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` = 1) LIMIT 1[0m
+  [4;35;1mPage Load (0.5ms)[0m   [0mSELECT * FROM `pages` WHERE (number IS NOT NULL) ORDER BY number ASC[0m
+  [4;36;1mPage Load (0.3ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` IS NULL) LIMIT 1[0m
+Completed in 33ms (View: 18, DB: 4) | 200 OK [http://localhost/module/size_weight]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ModuleController#index (for 127.0.0.1 at 2010-08-03 13:23:57) [GET]
+  Parameters: {"filename"=>"summary"}
+  [4;35;1mPage Load (0.6ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`filename` = 'summary') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering module/index
+  [4;36;1mPage Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.5ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`number` = 6) LIMIT 1[0m
+  [4;36;1mPage Load (0.5ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` = 4) LIMIT 1[0m
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (number IS NOT NULL) ORDER BY number ASC[0m
+  [4;36;1mPage Load (0.1ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` IS NULL) LIMIT 1[0m
+Completed in 29ms (View: 16, DB: 3) | 200 OK [http://localhost/module/summary]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ModuleController#index (for 127.0.0.1 at 2010-08-03 13:24:05) [GET]
+  Parameters: {"filename"=>"size_weight"}
+  [4;35;1mPage Load (0.1ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`filename` = 'size_weight') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering module/index
+  [4;36;1mPage Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.1ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`number` = 3) LIMIT 1[0m
+  [4;36;1mPage Load (2.7ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` = 1) LIMIT 1[0m
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (number IS NOT NULL) ORDER BY number ASC[0m
+  [4;36;1mPage Load (0.3ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` IS NULL) LIMIT 1[0m
+Completed in 26ms (View: 14, DB: 5) | 200 OK [http://localhost/module/size_weight]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ModuleController#index (for 127.0.0.1 at 2010-08-03 13:24:08) [GET]
+  Parameters: {"filename"=>"summary"}
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`filename` = 'summary') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering module/index
+  [4;36;1mPage Columns (15.9ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`number` = 6) LIMIT 1[0m
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` = 4) LIMIT 1[0m
+  [4;35;1mPage Load (8.9ms)[0m   [0mSELECT * FROM `pages` WHERE (number IS NOT NULL) ORDER BY number ASC[0m
+  [4;36;1mPage Load (0.1ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` IS NULL) LIMIT 1[0m
+Completed in 63ms (View: 14, DB: 26) | 200 OK [http://localhost/module/summary]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ModuleController#index (for 127.0.0.1 at 2010-08-03 13:24:10) [GET]
+  Parameters: {"filename"=>"size_weight"}
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`filename` = 'size_weight') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering module/index
+  [4;36;1mPage Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.1ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`number` = 3) LIMIT 1[0m
+  [4;36;1mPage Load (0.1ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` = 1) LIMIT 1[0m
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (number IS NOT NULL) ORDER BY number ASC[0m
+  [4;36;1mPage Load (0.1ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` IS NULL) LIMIT 1[0m
+Completed in 44ms (View: 15, DB: 2) | 200 OK [http://localhost/module/size_weight]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ModuleController#index (for 127.0.0.1 at 2010-08-03 13:26:18) [GET]
+  Parameters: {"filename"=>"font"}
+  [4;35;1mPage Load (16.1ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`filename` = 'font') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering module/index
+  [4;36;1mPage Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.1ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`number` = 2) LIMIT 1[0m
+  [4;36;1mPage Load (0.1ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` = 0) LIMIT 1[0m
+  [4;35;1mPage Load (0.1ms)[0m   [0mSELECT * FROM `pages` WHERE (number IS NOT NULL) ORDER BY number ASC[0m
+  [4;36;1mPage Load (0.1ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` IS NULL) LIMIT 1[0m
+Completed in 38ms (View: 13, DB: 18) | 200 OK [http://localhost/module/font]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ModuleController#index (for 127.0.0.1 at 2010-08-03 13:26:29) [GET]
+  Parameters: {"filename"=>"space"}
+  [4;35;1mPage Load (2.4ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`filename` = 'space') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering module/index
+  [4;36;1mPage Columns (1.4ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`number` = 4) LIMIT 1[0m
+  [4;36;1mPage Load (0.1ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` = 2) LIMIT 1[0m
+  [4;35;1mPage Load (0.3ms)[0m   [0mSELECT * FROM `pages` WHERE (number IS NOT NULL) ORDER BY number ASC[0m
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` IS NULL) LIMIT 1[0m
+Completed in 28ms (View: 14, DB: 5) | 200 OK [http://localhost/module/space]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ModuleController#index (for 127.0.0.1 at 2010-08-03 13:26:31) [GET]
+  Parameters: {"filename"=>"size_weight"}
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`filename` = 'size_weight') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering module/index
+  [4;36;1mPage Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.1ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`number` = 3) LIMIT 1[0m
+  [4;36;1mPage Load (0.1ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` = 1) LIMIT 1[0m
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (number IS NOT NULL) ORDER BY number ASC[0m
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` IS NULL) LIMIT 1[0m
+Completed in 90ms (View: 15, DB: 2) | 200 OK [http://localhost/module/size_weight]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ModuleController#index (for 127.0.0.1 at 2010-08-03 13:26:32) [GET]
+  Parameters: {"filename"=>"space"}
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`filename` = 'space') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering module/index
+  [4;36;1mPage Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.6ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`number` = 4) LIMIT 1[0m
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` = 2) LIMIT 1[0m
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (number IS NOT NULL) ORDER BY number ASC[0m
+  [4;36;1mPage Load (0.3ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` IS NULL) LIMIT 1[0m
+Completed in 26ms (View: 15, DB: 3) | 200 OK [http://localhost/module/space]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ModuleController#index (for 127.0.0.1 at 2010-08-03 13:28:34) [GET]
+  Parameters: {"filename"=>"hierarchy"}
+  [4;35;1mPage Load (0.7ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`filename` = 'hierarchy') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering module/index
+  [4;36;1mPage Columns (1.4ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.6ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`number` = 5) LIMIT 1[0m
+  [4;36;1mPage Load (0.3ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` = 3) LIMIT 1[0m
+  [4;35;1mPage Load (0.3ms)[0m   [0mSELECT * FROM `pages` WHERE (number IS NOT NULL) ORDER BY number ASC[0m
+  [4;36;1mPage Load (0.3ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` IS NULL) LIMIT 1[0m
+Completed in 28ms (View: 15, DB: 4) | 200 OK [http://localhost/module/hierarchy]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ModuleController#index (for 127.0.0.1 at 2010-08-03 13:28:38) [GET]
+  Parameters: {"filename"=>"space"}
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`filename` = 'space') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering module/index
+  [4;36;1mPage Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.3ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`number` = 4) LIMIT 1[0m
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` = 2) LIMIT 1[0m
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (number IS NOT NULL) ORDER BY number ASC[0m
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` IS NULL) LIMIT 1[0m
+Completed in 26ms (View: 14, DB: 2) | 200 OK [http://localhost/module/space]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ModuleController#index (for 127.0.0.1 at 2010-08-03 13:29:05) [GET]
+  Parameters: {"filename"=>"space"}
+  [4;35;1mPage Load (0.3ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`filename` = 'space') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering module/index
+  [4;36;1mPage Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`number` = 4) LIMIT 1[0m
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` = 2) LIMIT 1[0m
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (number IS NOT NULL) ORDER BY number ASC[0m
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` IS NULL) LIMIT 1[0m
+Completed in 29ms (View: 15, DB: 3) | 200 OK [http://localhost/module/space]
+  [4;35;1mSQL (0.4ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ModuleController#index (for 127.0.0.1 at 2010-08-03 13:29:11) [GET]
+  Parameters: {"filename"=>"hierarchy"}
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`filename` = 'hierarchy') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering module/index
+  [4;36;1mPage Columns (1.3ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`number` = 5) LIMIT 1[0m
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` = 3) LIMIT 1[0m
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (number IS NOT NULL) ORDER BY number ASC[0m
+  [4;36;1mPage Load (0.4ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` IS NULL) LIMIT 1[0m
+Completed in 25ms (View: 14, DB: 3) | 200 OK [http://localhost/module/hierarchy]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ModuleController#index (for 127.0.0.1 at 2010-08-03 13:29:42) [GET]
+  Parameters: {"filename"=>"summary"}
+  [4;35;1mPage Load (0.3ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`filename` = 'summary') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering module/index
+  [4;36;1mPage Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`number` = 6) LIMIT 1[0m
+  [4;36;1mPage Load (0.1ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` = 4) LIMIT 1[0m
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (number IS NOT NULL) ORDER BY number ASC[0m
+  [4;36;1mPage Load (0.6ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` IS NULL) LIMIT 1[0m
+Completed in 28ms (View: 15, DB: 3) | 200 OK [http://localhost/module/summary]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ModuleController#index (for 127.0.0.1 at 2010-08-03 13:31:12) [GET]
+  Parameters: {"filename"=>"conclusion"}
+  [4;35;1mPage Load (0.7ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`filename` = 'conclusion') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering module/index
+  [4;36;1mPage Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.5ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`number` = 7) LIMIT 1[0m
+  [4;36;1mPage Load (0.1ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` = 5) LIMIT 1[0m
+  [4;35;1mPage Load (0.3ms)[0m   [0mSELECT * FROM `pages` WHERE (number IS NOT NULL) ORDER BY number ASC[0m
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` IS NULL) LIMIT 1[0m
+Completed in 44ms (View: 34, DB: 3) | 200 OK [http://localhost/module/conclusion]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ModuleController#index (for 127.0.0.1 at 2010-08-03 13:31:41) [GET]
+  Parameters: {"filename"=>"references"}
+  [4;35;1mPage Load (0.7ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`filename` = 'references') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering module/index
+  [4;36;1mPage Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.6ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`number` = 8) LIMIT 1[0m
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` = 6) LIMIT 1[0m
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (number IS NOT NULL) ORDER BY number ASC[0m
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` IS NULL) LIMIT 1[0m
+Completed in 49ms (View: 36, DB: 3) | 200 OK [http://localhost/module/references]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ModuleController#index (for 127.0.0.1 at 2010-08-03 13:31:44) [GET]
+  Parameters: {"filename"=>"about"}
+  [4;35;1mPage Load (0.5ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`filename` = 'about') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering module/index
+  [4;36;1mPage Columns (1.3ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (number IS NOT NULL) ORDER BY number ASC[0m
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`number` IS NULL) LIMIT 1[0m
+Completed in 43ms (View: 33, DB: 3) | 200 OK [http://localhost/module/about]

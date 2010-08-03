@@ -15,8 +15,8 @@ class CreatePages < ActiveRecord::Migration
     Page.create_with_title "Size and weight", "size_weight"
     Page.create_with_title "Space"
     Page.create_with_title "Hierarchy"
-    Page.create_with_title "Conclusion"
     Page.create_with_title "Summary"
+    Page.create_with_title "Conclusion"
     Page.create_with_title "References"
     Page.create :title => "About", :filename => "about"
   end

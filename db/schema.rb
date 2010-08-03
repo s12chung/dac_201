@@ -20,5 +20,6 @@ ActiveRecord::Schema.define(:version => 20100728231922) do
   end
 
   add_index "pages", ["filename"], :name => "index_pages_on_filename"
+  add_index "pages", ["number"], :name => "index_pages_on_number"
 
 end
